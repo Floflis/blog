@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logs on Floflis&#39; Blog</title>
+    <link>https://floflis.github.io/blog/tags/logs/</link>
+    <description>Recent content in Logs on Floflis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Tue, 25 Jun 2019 22:52:42 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/tags/logs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updated blog with translations and RSS/JSON feed</title>
+      <link>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/</link>
+      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/</guid>
+      <description>It were hard to work on Floflis&amp;rsquo; Blog (and Floflis itself, even more), as there were people with need to use my notebook for hours. But I could make it working 100%.
+Now the header haves menus (for main site, manuals, source-code) and these menus and blog&amp;rsquo;s title are now fully translated.
+Yes, I know the blog needs a favicon, a comment system (like Disqus), translations in all posts and new languages available.</description>
+    </item>
+    
+    <item>
+      <title>Our blog is working and fully personalized</title>
+      <link>https://floflis.github.io/blog/2019/06/our-blog-is-working-and-fully-personalized/</link>
+      <pubDate>Mon, 24 Jun 2019 11:42:59 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/06/our-blog-is-working-and-fully-personalized/</guid>
+      <description>Yesterday I&amp;rsquo;ve left the whole day working on Floflis&amp;rsquo; blog. And today, at morning, in less than two hours I&amp;rsquo;ve personalized the whole blog.
+It loads a local logo (were reading from Floflis site), haves its title (did it today), personalized menu items (needs translation), added Esperanto language (needs a pull request to Bootstrap theme), and added its first two posts with tags and categories.
+I don&amp;rsquo;t see GoHugo as a good platform for building sites, not even for blogs, but for now it is being totally useful for building blogs.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://floflis.github.io/blog/2019/06/first-post/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/06/first-post/</guid>
+      <description>This is the first post on Floflis&amp;rsquo; Blog, testing if GoHugo with hugo-bootstrap theme works.
+For some time I&amp;rsquo;m wanting to log the development of Floflis on its own blog. Now it seems to be possible ❤</description>
+    </item>
+    
+  </channel>
+</rss>

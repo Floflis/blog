@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reports on Floflis&#39; Blog</title>
+    <link>https://floflis.github.io/blog/tags/reports/</link>
+    <description>Recent content in Reports on Floflis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/tags/reports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Electron security reports for Floflis&#39; pre-installed apps</title>
+      <link>https://floflis.github.io/blog/2019/06/electron-security-reports-for-floflis-pre-installed-apps/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/06/electron-security-reports-for-floflis-pre-installed-apps/</guid>
+      <description>Some days ago I were studying about security auditors on Linux, firstly started with Electron apps auditing.
+The first auditing tool (and currently the only I&amp;rsquo;m using) is Electronegativity by Doyensec.
+Electronegativity had pointed vulnerabilities in all apps. I don&amp;rsquo;t know if they are really vulnerabilities or just JS best practices tips.
+I&amp;rsquo;ve reported them to all developers, and they seemed skeptical, and ignored. But I&amp;rsquo;m committed to try to fix vulnerabilities in any app I develop for Floflis, specially its built-in apps.</description>
+    </item>
+    
+  </channel>
+</rss>

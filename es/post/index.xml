@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog de Floflis</title>
+    <link>https://floflis.github.io/blog/es/post/</link>
+    <description>Recent content in Posts on Blog de Floflis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/es/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Informes de seguridad Electron para las apps preinstaladas de Floflis</title>
+      <link>https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/</guid>
+      <description>Hace unos días estudiaba sobre auditores de seguridad en Linux, primero comencé con la auditoría de aplicaciones de Electron.
+La primera herramienta de auditoría (y actualmente la única que estoy usando) es Electronegativity por Doyensec.
+Electronegativity había señalado vulnerabilidades en todas las aplicaciones. No sé si son realmente vulnerabilidades o solo consejos de mejores prácticas de JS.
+Los he reportado a todos los desarrolladores, y parecían escépticos, y ignoraron. Pero me comprometo a tratar de corregir las vulnerabilidades en cualquier aplicación que desarrolle para Floflis, especialmente sus aplicaciones integradas.</description>
+    </item>
+    
+    <item>
+      <title>Primer mensaje</title>
+      <link>https://floflis.github.io/blog/es/2019/06/primer-mensaje/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/es/2019/06/primer-mensaje/</guid>
+      <description>Esta es la primera publicación en el blog de Floflis, que prueba si GoHugo con el tema hugo-bootstrap funciona.
+Desde hace algún tiempo quiero registrar el desarrollo de Floflis en su propio blog. Ahora parece que es posible ❤</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Floflis 'Blog",
+    "description": "Recent content on Floflis 'Blog",
+    "home_page_url" : "https://floflis.github.io/blog/",
+    "feed_url" : "https://floflis.github.io/blog/de/index.json",
+    "items" : [
+    {
+        "title" : "Die Sicherheitsberichte von Electron für die vorinstallierten Floflis-Apps",
+        "date_published" : "2019-06-23T18:11:28-04:00",
+        "date_modified" : "2019-06-23T18:11:28-04:00",
+        "id" : "https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/",
+        "url" : "https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eVor einigen Tagen habe ich mich mit Sicherheitsprüfern unter Linux befasst und zunächst mit der Prüfung von Electron-Apps begonnen.\u003c/p\u003e\n\n\u003cp\u003eDas erste Prüfungstool (und derzeit das einzige, das ich verwende) ist die Electronegativity von \u003ca href=\"https://doyensec.com/\" target=\"_blank\"\u003eDoyensec\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eDie Elektronegativität wies in allen Apps auf Schwachstellen hin. Ich weiß nicht, ob es sich wirklich um Sicherheitslücken oder nur um Tipps für bewährte Vorgehensweisen bei JS handelt.\u003c/p\u003e\n\n\u003cp\u003eIch habe sie allen Entwicklern gemeldet, und sie wirkten skeptisch und ignoriert. Aber ich bin fest entschlossen, Schwachstellen in jeder App zu beheben, die ich für Floflis entwickle, insbesondere in den integrierten Apps. Aus diesem Grund werde ich \u003ccode\u003eHTML5 Player\u003c/code\u003e vorübergehend entfernen, da es sich um einen Webbrowser handelt. Dies ist die sinnvollste Art von App.\u003c/p\u003e\n\n\u003cp\u003eAufgrund der schlechten \u003ca href=\"https://github.com/fabiospampinato/noty/issues/10\" target=\"_blank\"\u003eerhaltenen Antwort\u003c/a\u003e entfernt Floflis \u003ccode\u003enoty\u003c/code\u003e als installierte App.\u003c/p\u003e\n\n\u003cp\u003e\u003ca href=\"https://floflis.github.io/security/reports/06-2019/\" target=\"_blank\"\u003eKlicken Sie hier\u003c/a\u003e, um alle Berichte mit einem Link zu ihrem GitHub-Problem anzuzeigen.\u003c/p\u003e\n"
+    },
+    {
+        "title" : "Erster Artikel",
+        "date_published" : "2019-06-23T14:33:54-04:00",
+        "date_modified" : "2019-06-23T14:33:54-04:00",
+        "id" : "https://floflis.github.io/blog/de/2019/06/erster-artikel/",
+        "url" : "https://floflis.github.io/blog/de/2019/06/erster-artikel/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eDies ist der erste Beitrag auf Floflis \u0026lsquo;Blog, in dem getestet wird, ob GoHugo mit dem \u003ccode\u003eHugo-Bootstrap\u003c/code\u003e-Thema funktioniert.\u003c/p\u003e\n\n\u003cp\u003eSeit einiger Zeit möchte ich die Entwicklung von Floflis auf einem eigenen Blog protokollieren. Jetzt scheint es möglich zu sein ❤\u003c/p\u003e\n"
+    }
+    ]
+}

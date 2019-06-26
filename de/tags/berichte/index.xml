@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Berichte on Floflis &#39;Blog</title>
+    <link>https://floflis.github.io/blog/de/tags/berichte/</link>
+    <description>Recent content in Berichte on Floflis &#39;Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/de/tags/berichte/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Die Sicherheitsberichte von Electron für die vorinstallierten Floflis-Apps</title>
+      <link>https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/</guid>
+      <description>Vor einigen Tagen habe ich mich mit Sicherheitsprüfern unter Linux befasst und zunächst mit der Prüfung von Electron-Apps begonnen.
+Das erste Prüfungstool (und derzeit das einzige, das ich verwende) ist die Electronegativity von Doyensec.
+Die Elektronegativität wies in allen Apps auf Schwachstellen hin. Ich weiß nicht, ob es sich wirklich um Sicherheitslücken oder nur um Tipps für bewährte Vorgehensweisen bei JS handelt.
+Ich habe sie allen Entwicklern gemeldet, und sie wirkten skeptisch und ignoriert.</description>
+    </item>
+    
+  </channel>
+</rss>

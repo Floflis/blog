@@ -1,0 +1,53 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Floflis' Blog",
+    "description": "Recent content on Floflis' Blog",
+    "home_page_url" : "https://floflis.github.io/blog/",
+    "feed_url" : "https://floflis.github.io/blog/index.json",
+    "items" : [
+    {
+        "title" : "Updated blog with translations and RSS/JSON feed",
+        "date_published" : "2019-06-25T22:52:42-04:00",
+        "date_modified" : "2019-06-25T22:52:42-04:00",
+        "id" : "https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/",
+        "url" : "https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003e\u003cimg src=\"/blog/img/posts/updated-blog-with-translations-and-rss-json-feed.png\" alt=\"\" /\u003e\u003c/p\u003e\n\n\u003cp\u003eIt were hard to work on Floflis\u0026rsquo; Blog (and Floflis itself, even more), as there were people with need to use my notebook for hours. But I could make it working 100%.\u003c/p\u003e\n\n\u003cp\u003eNow the header haves menus (for main site, manuals, source-code) and these menus and blog\u0026rsquo;s title are now fully translated.\u003c/p\u003e\n\n\u003cp\u003e\u003cimg src=\"/blog/img/posts/updated-blog-with-translations-and-rss-json-feed2.png\" alt=\"\" /\u003e\u003c/p\u003e\n\n\u003cp\u003eYes, I know the blog needs a favicon, a comment system (like Disqus), translations in all posts and new languages available. But I did a lot for the blog even with limited hours to work, and when I should work on Floflis OS instead of on its blog.\u003c/p\u003e\n\n\u003cp\u003eThe biggest thing to announce about our blog: it now output news feed for reader apps (JsonFeed and RSS), and haves a search index in JSON (missing a search system and its input field in header). Also I\u0026rsquo;m working on the FrameworkJS theme for GoHugo while working on Floflis blog.\u003c/p\u003e\n\n\u003cp\u003eThe News Feed widget in sidebar is also translated, and part of FrameworkJS theme. This theme also includes its RSS logo (in SVG) and logo/favicon. ❤\u003c/p\u003e\n\n\u003cp\u003eHope to tell news about Floflis instead of its blog \u0026lsquo;=\u0026rsquo;\u003c/p\u003e\n"
+    },
+    {
+        "title" : "Our blog is working and fully personalized",
+        "date_published" : "2019-06-24T11:42:59-04:00",
+        "date_modified" : "2019-06-24T11:42:59-04:00",
+        "id" : "https://floflis.github.io/blog/2019/06/our-blog-is-working-and-fully-personalized/",
+        "url" : "https://floflis.github.io/blog/2019/06/our-blog-is-working-and-fully-personalized/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003e\u003cimg src=\"/blog/img/posts/our-blog-is-working-and-fully-personalized.png\" alt=\"\" /\u003e\u003c/p\u003e\n\n\u003cp\u003eYesterday I\u0026rsquo;ve left the whole day working on Floflis\u0026rsquo; blog. And today, at morning, in less than two hours I\u0026rsquo;ve personalized the whole blog.\u003c/p\u003e\n\n\u003cp\u003eIt loads a local logo (were reading from Floflis site), haves its title (did it today), personalized menu items (needs translation), added Esperanto language (needs a pull request to Bootstrap theme), and added its first two posts with tags and categories.\u003c/p\u003e\n\n\u003cp\u003eI don\u0026rsquo;t see GoHugo as a good platform for building sites, not even for blogs, but for now it is being totally useful for building blogs.\u003c/p\u003e\n\n\u003cp\u003eAnd probably Floflis Central will support on building blogs, using this platform.\u003c/p\u003e\n"
+    },
+    {
+        "title" : "Electron security reports for Floflis' pre-installed apps",
+        "date_published" : "2019-06-23T18:11:28-04:00",
+        "date_modified" : "2019-06-23T18:11:28-04:00",
+        "id" : "https://floflis.github.io/blog/2019/06/electron-security-reports-for-floflis-pre-installed-apps/",
+        "url" : "https://floflis.github.io/blog/2019/06/electron-security-reports-for-floflis-pre-installed-apps/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eSome days ago I were studying about security auditors on Linux, firstly started with Electron apps auditing.\u003c/p\u003e\n\n\u003cp\u003eThe first auditing tool (and currently the only I\u0026rsquo;m using) is Electronegativity by \u003ca href=\"https://doyensec.com/\" target=\"_blank\"\u003eDoyensec\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eElectronegativity had pointed vulnerabilities in all apps. I don\u0026rsquo;t know if they are really vulnerabilities or just JS best practices tips.\u003c/p\u003e\n\n\u003cp\u003eI\u0026rsquo;ve reported them to all developers, and they seemed skeptical, and ignored. But I\u0026rsquo;m committed to try to fix vulnerabilities in any app I develop for Floflis, specially its built-in apps. That is the reason I\u0026rsquo;ll temporally remove \u003ccode\u003eHTML5 Player\u003c/code\u003e, as it is considered a web browser: which is the most sensitive kind of app.\u003c/p\u003e\n\n\u003cp\u003eDue to the bad \u003ca href=\"https://github.com/fabiospampinato/noty/issues/10\" target=\"_blank\"\u003eresponce received\u003c/a\u003e, Floflis will remove \u003ccode\u003enoty\u003c/code\u003e as a installed app.\u003c/p\u003e\n\n\u003cp\u003e\u003ca href=\"https://floflis.github.io/security/reports/06-2019/\" target=\"_blank\"\u003eClick here\u003c/a\u003e for all reports, with link to their GitHub issue.\u003c/p\u003e\n"
+    },
+    {
+        "title" : "First Post",
+        "date_published" : "2019-06-23T14:33:54-04:00",
+        "date_modified" : "2019-06-23T14:33:54-04:00",
+        "id" : "https://floflis.github.io/blog/2019/06/first-post/",
+        "url" : "https://floflis.github.io/blog/2019/06/first-post/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eThis is the first post on Floflis\u0026rsquo; Blog, testing if GoHugo with \u003ccode\u003ehugo-bootstrap\u003c/code\u003e theme works.\u003c/p\u003e\n\n\u003cp\u003eFor some time I\u0026rsquo;m wanting to log the development of Floflis on its own blog. Now it seems to be possible ❤\u003c/p\u003e\n"
+    }
+    ]
+}

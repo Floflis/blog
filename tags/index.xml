@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Floflis&#39; Blog</title>
+    <link>https://floflis.github.io/blog/tags/</link>
+    <description>Recent content in Tags on Floflis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Tue, 25 Jun 2019 22:52:42 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://floflis.github.io/blog/tags/blog/</link>
+      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logs</title>
+      <link>https://floflis.github.io/blog/tags/logs/</link>
+      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/logs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>https://floflis.github.io/blog/tags/presentation/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://floflis.github.io/blog/tags/reports/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://floflis.github.io/blog/tags/security/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/security/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

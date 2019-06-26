@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sekureco on Floflis &#39;Blog</title>
+    <link>https://floflis.github.io/blog/eo/tags/sekureco/</link>
+    <description>Recent content in Sekureco on Floflis &#39;Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/eo/tags/sekureco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La sekurecaj raporoj de Electron por la antaŭ-instalitaj programoj de Floflis</title>
+      <link>https://floflis.github.io/blog/eo/2019/06/la-sekurecaj-raporoj-de-electron-por-la-anta%C5%AD-instalitaj-programoj-de-floflis/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/eo/2019/06/la-sekurecaj-raporoj-de-electron-por-la-anta%C5%AD-instalitaj-programoj-de-floflis/</guid>
+      <description>Antaŭ kelkaj tagoj mi studis pri sekurecaj aŭditoroj en Linux, unue komenciĝis per auditorado de Elektronikaj programoj.
+La unua auditilo (kaj nuntempe la sola kiun mi uzas) estas Electronegativity per Doyensec.
+Electronegativity montris mankojn en ĉiuj programoj. Mi ne scias ĉu ili estas vere vundeblaj aŭ nur konsiloj pri bonaj praktikoj de JS.
+Mi raportis ilin al ĉiuj programistoj, kaj ili ŝajnis skeptikaj kaj ignoritaj. Sed mi estas devigita provi ripari vundeblecojn en iu ajn programo, kiun mi disvolvas por Floflis, speciale ties enmetitaj programoj.</description>
+    </item>
+    
+  </channel>
+</rss>

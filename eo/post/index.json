@@ -1,0 +1,31 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Posts on Floflis 'Blog",
+    "description": "Recent content in Posts on Floflis 'Blog",
+    "home_page_url" : "https://floflis.github.io/blog/",
+    "feed_url" : "https://floflis.github.io/blog/eo/post/index.json",
+    "items" : [
+    {
+        "title" : "La sekurecaj raporoj de Electron por la antaŭ-instalitaj programoj de Floflis",
+        "date_published" : "2019-06-23T18:11:28-04:00",
+        "date_modified" : "2019-06-23T18:11:28-04:00",
+        "id" : "https://floflis.github.io/blog/eo/2019/06/la-sekurecaj-raporoj-de-electron-por-la-anta%C5%AD-instalitaj-programoj-de-floflis/",
+        "url" : "https://floflis.github.io/blog/eo/2019/06/la-sekurecaj-raporoj-de-electron-por-la-anta%C5%AD-instalitaj-programoj-de-floflis/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eAntaŭ kelkaj tagoj mi studis pri sekurecaj aŭditoroj en Linux, unue komenciĝis per auditorado de Elektronikaj programoj.\u003c/p\u003e\n\n\u003cp\u003eLa unua auditilo (kaj nuntempe la sola kiun mi uzas) estas Electronegativity per \u003ca href=\"https://doyensec.com/\" target=\"_blank\"\u003eDoyensec\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eElectronegativity montris mankojn en ĉiuj programoj. Mi ne scias ĉu ili estas vere vundeblaj aŭ nur konsiloj pri bonaj praktikoj de JS.\u003c/p\u003e\n\n\u003cp\u003eMi raportis ilin al ĉiuj programistoj, kaj ili ŝajnis skeptikaj kaj ignoritaj. Sed mi estas devigita provi ripari vundeblecojn en iu ajn programo, kiun mi disvolvas por Floflis, speciale ties enmetitaj programoj. Tial mi provizore forigos \u0026lsquo;HTML5 Player\u0026rsquo;, ĉar ĝi estas konsiderata retumilo: kiu estas la plej prudenta speco de aplikaĵo.\u003c/p\u003e\n\n\u003cp\u003ePro la malbona \u003ca href=\"https://github.com/fabiospampinato/noty/issues/10\" target=\"_blank\"\u003eresponce ricevita\u003c/a\u003e, Floflis forigos \u003ccode\u003enoty\u003c/code\u003e kiel instalitan programon.\u003c/p\u003e\n\n\u003cp\u003e\u003ca href=\"https://floflis.github.io/security/reports/06-2019/\" target=\"_blank\"\u003eAlklaku ĉi tie\u003c/a\u003e por ĉiuj raportoj, kun ligilo al ilia GitHub-temo.\u003c/p\u003e\n"
+    },
+    {
+        "title" : "Unua Poŝto",
+        "date_published" : "2019-06-23T14:33:54-04:00",
+        "date_modified" : "2019-06-23T14:33:54-04:00",
+        "id" : "https://floflis.github.io/blog/eo/2019/06/unua-po%C5%9Dto/",
+        "url" : "https://floflis.github.io/blog/eo/2019/06/unua-po%C5%9Dto/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eĈi tiu estas la unua afiŝo en la Blogo de Floflis, testante, ĉu GoHugo kun temo \u003ccode\u003ehugo-bootstrap\u003c/code\u003e funkcias.\u003c/p\u003e\n\n\u003cp\u003eDum kelka tempo mi volas registri la evoluon de Floflis en sia propra blogo. Nun ĝi ŝajnas esti ebla ❤\u003c/p\u003e\n"
+    }
+    ]
+}

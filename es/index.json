@@ -1,0 +1,31 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Blog de Floflis",
+    "description": "Recent content on Blog de Floflis",
+    "home_page_url" : "https://floflis.github.io/blog/",
+    "feed_url" : "https://floflis.github.io/blog/es/index.json",
+    "items" : [
+    {
+        "title" : "Informes de seguridad Electron para las apps preinstaladas de Floflis",
+        "date_published" : "2019-06-23T18:11:28-04:00",
+        "date_modified" : "2019-06-23T18:11:28-04:00",
+        "id" : "https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/",
+        "url" : "https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eHace unos días estudiaba sobre auditores de seguridad en Linux, primero comencé con la auditoría de aplicaciones de Electron.\u003c/p\u003e\n\n\u003cp\u003eLa primera herramienta de auditoría (y actualmente la única que estoy usando) es Electronegativity por \u003ca href=\"https://doyensec.com/\" target=\"_blank\"\u003eDoyensec\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eElectronegativity había señalado vulnerabilidades en todas las aplicaciones. No sé si son realmente vulnerabilidades o solo consejos de mejores prácticas de JS.\u003c/p\u003e\n\n\u003cp\u003eLos he reportado a todos los desarrolladores, y parecían escépticos, y ignoraron. Pero me comprometo a tratar de corregir las vulnerabilidades en cualquier aplicación que desarrolle para Floflis, especialmente sus aplicaciones integradas. Esa es la razón por la que eliminaré temporalmente el \u003ccode\u003eHTML5 Player\u003c/code\u003e, ya que se considera un navegador web: es la aplicación más sensible.\u003c/p\u003e\n\n\u003cp\u003e\u003ca href=\"https://floflis.github.io/security/reports/06-2019/\" target=\"_blank\"\u003e Haga clic aquí \u003c/a\u003e para ver todos los informes, con un enlace a su issue de GitHub.\u003c/p\u003e\n"
+    },
+    {
+        "title" : "Primer mensaje",
+        "date_published" : "2019-06-23T14:33:54-04:00",
+        "date_modified" : "2019-06-23T14:33:54-04:00",
+        "id" : "https://floflis.github.io/blog/es/2019/06/primer-mensaje/",
+        "url" : "https://floflis.github.io/blog/es/2019/06/primer-mensaje/",
+        "author" : {
+          "name" : "Daniell Mesquita"
+        },
+        "content_html" : "\u003cp\u003eEsta es la primera publicación en el blog de Floflis, que prueba si GoHugo con el tema \u003ccode\u003ehugo-bootstrap\u003c/code\u003e funciona.\u003c/p\u003e\n\n\u003cp\u003eDesde hace algún tiempo quiero registrar el desarrollo de Floflis en su propio blog. Ahora parece que es posible ❤\u003c/p\u003e\n"
+    }
+    ]
+}
