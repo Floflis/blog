@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Floflis&#39; Blog</title>
+    <link>https://floflis.github.io/blog/tags/development/</link>
+    <description>Recent content in Development on Floflis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 09:36:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://floflis.github.io/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New layers for Floflis: DNA and Home</title>
+      <link>https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/</link>
+      <pubDate>Fri, 05 Jul 2019 09:36:00 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/</guid>
+      <description>I would post that on day 3, but had other things to do. Thinking about Floflis powering routers (wireless), Core is a too much high layer.
+Floflis DNA Then, Floflis DNA layer will get some things from Floflis Core (its installer, tree folder) while not having huge things such as NodeJS (making them optional to install; inside a router, possible to upgrade from DNA to Core).
+Floflis Home Instead of upgrading from Floflis Basic (would work on Windows 95 machines) to Floflis Ultimate (heavyweight), it can have a middle stage for intermediate devices: Floflis Home.</description>
+    </item>
+    
+    <item>
+      <title>Development log - 01-03 July 2019</title>
+      <link>https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/</link>
+      <pubDate>Wed, 03 Jul 2019 22:30:58 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/</guid>
+      <description>Day 1 I came to Floflis&amp;rsquo; GitHub organization and openned its &amp;ldquo;meta&amp;rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
+Organized issues page:
+Organized build 071 milestone:
+Also, did a audit with Lynis, for the security report of July:
+Tried to compile/install Stacer (didn&amp;rsquo;t worked), for cleanning junk storage usage:</description>
+    </item>
+    
+    <item>
+      <title>Floflis&#39; Layers (Recipe, Core, Substratum, Base, Ultimate)</title>
+      <link>https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</link>
+      <pubDate>Mon, 01 Jul 2019 16:44:03 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</guid>
+      <description>Seeing the need to compress files to make smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis&amp;rsquo; Layers, which makes Floflis modular and lightweight.
+Bellow are the layers explained:
+Recipe Not a working layer, but it contains references of compilers (for any supported platform) and source-codes.
+Core Very lightweight, can run from a router to even a Nintendo DS.</description>
+    </item>
+    
+    <item>
+      <title>.ISO of 17.4 GB! We need to compress it</title>
+      <link>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</link>
+      <pubDate>Mon, 01 Jul 2019 16:13:27 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
+      <description>After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&amp;rsquo; Layers).
+I&amp;rsquo;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
+    </item>
+    
+    <item>
+      <title>Floflis launch has been postponed to July</title>
+      <link>https://floflis.github.io/blog/2019/06/floflis-launch-has-been-postponed-to-july/</link>
+      <pubDate>Thu, 27 Jun 2019 09:56:16 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/2019/06/floflis-launch-has-been-postponed-to-july/</guid>
+      <description>If you see the watermark in Floflis desktop, it points as build 051 (5 representing May month, and 1 representing its first build for the month), but we are in 27 June. 051 was postponned because of my incompetence (althought I were studying other things, useful like in other years of &amp;ldquo;ocious&amp;rdquo;), and build 061 is being postponned due to personal issues (my mom needing to use notebook to write - and right now is preventing me from writing this asking to write more, and staring like a guard).</description>
+    </item>
+    
+  </channel>
+</rss>

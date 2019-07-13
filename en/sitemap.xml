@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/</loc>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/</loc>
+    <lastmod>2019-07-03T22:30:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</loc>
+    <lastmod>2019-07-01T16:44:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</loc>
+    <lastmod>2019-07-01T16:13:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/2019/06/floflis-launch-has-been-postponed-to-july/</loc>
+    <lastmod>2019-06-27T09:56:16-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/</loc>
     <lastmod>2019-06-25T22:52:42-04:00</lastmod>
   </url>
@@ -123,8 +148,14 @@
   </url>
   
   <url>
+    <loc>https://floflis.github.io/blog/tags/development/</loc>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://floflis.github.io/blog/</loc>
-    <lastmod>2019-06-25T22:52:42-04:00</lastmod>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -150,19 +181,19 @@
   
   <url>
     <loc>https://floflis.github.io/blog/tags/logs/</loc>
-    <lastmod>2019-06-25T22:52:42-04:00</lastmod>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://floflis.github.io/blog/categories/logs/</loc>
-    <lastmod>2019-06-25T22:52:42-04:00</lastmod>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://floflis.github.io/blog/post/</loc>
-    <lastmod>2019-06-25T22:52:42-04:00</lastmod>
+    <lastmod>2019-07-05T09:36:00-04:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
