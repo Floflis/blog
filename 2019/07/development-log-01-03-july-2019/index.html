@@ -10,10 +10,11 @@
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:" />
+Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/" /><meta property="article:published_time" content="2019-07-03T22:30:58-04:00"/>
-<meta property="article:modified_time" content="2019-07-03T22:30:58-04:00"/><meta property="og:site_name" content="Floflis&#39; Blog" />
+<meta property="og:url" content="https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/" />
+<meta property="article:published_time" content="2019-07-03T22:30:58-04:00" />
+<meta property="article:modified_time" content="2019-07-03T22:30:58-04:00" /><meta property="og:site_name" content="Floflis&#39; Blog" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Development log - 01-03 July 2019"/>
@@ -21,7 +22,7 @@ Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storag
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:"/>
+Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:"/>
 
 
 
@@ -90,13 +91,13 @@ Floflis&#39; Blog
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         
+                            <a class="dropdown-item" href="https://floflis.github.io/blog/">English</a>
+                        
                             <a class="dropdown-item" href="https://floflis.github.io/blog/es/">Español</a>
                         
                             <a class="dropdown-item" href="https://floflis.github.io/blog/de/">Deutsch</a>
                         
                             <a class="dropdown-item" href="https://floflis.github.io/blog/eo/">Esperanto</a>
-                        
-                            <a class="dropdown-item" href="https://floflis.github.io/blog/">English</a>
                         
                     </div>
                 </li>
@@ -154,127 +155,79 @@ Floflis&#39; Blog
 </header>
 <article class="blog-post">
     <p>Day 1 I came to Floflis&rsquo; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).</p>
-
 <p>Organized issues page:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/1.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/1.png" alt=""></p>
 <p>Organized build 071 milestone:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/2.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/2.png" alt=""></p>
 <p>Also, did a audit with Lynis, for the security report of July:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/3.png" alt="" /></p>
-
-<p>Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/4.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/5.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/6.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/3.png" alt=""></p>
+<p>Tried to compile/install Stacer (didn't worked), for cleanning junk storage usage:</p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/4.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/5.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/6.png" alt=""></p>
 <p>And started to create the bash script for Floflis Installer:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/7.png" alt="" /></p>
-
-<p>Yes, I don&rsquo;t want to depend on Floflis Central to install Floflis, in favour of Floflis Core; making Floflis Central a simple GUI/UI for the Installer. And it is amazing: bash script is easier than JavaScript! ❤ I didn&rsquo;t thought programming for CLI would be easier than programming for Web.</p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/7.png" alt=""></p>
+<p>Yes, I don't want to depend on Floflis Central to install Floflis, in favour of Floflis Core; making Floflis Central a simple GUI/UI for the Installer. And it is amazing: bash script is easier than JavaScript! ❤ I didn't thought programming for CLI would be easier than programming for Web.</p>
 <p>Start of a bash file, jumping a line and showing a welcome message:</p>
-
-<pre><code class="language-bash">#!/bin/bash
-
-echo &quot;&quot;
-echo &quot;Welcome!&quot;
-</code></pre>
-
-<p>Showing ASCII art - and any other textbox:</p>
-
-<pre><code class="language-bash">cat &lt;&lt; &quot;EOF&quot;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>
+echo <span style="color:#e6db74">&#34;&#34;</span>
+echo <span style="color:#e6db74">&#34;Welcome!&#34;</span>
+</code></pre></div><p>Showing ASCII art - and any other textbox:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat &lt;&lt; <span style="color:#e6db74">&#34;EOF&#34;</span>
   _            _           
  |_  |   _   _|_  |  o   _ 
- |   |  (_)   |   |  |  _&gt; 
+ |   |  <span style="color:#f92672">(</span>_<span style="color:#f92672">)</span>   |   |  |  _&gt; 
                            
   ___               _            _   _             
  |_ _|  _ _    ___ | |_   __ _  | | | |  ___   _ _ 
-  | |  | ' \  (_-&lt; |  _| / _` | | | | | / -_) | '_|
- |___| |_||_| /__/  \__| \__,_| |_| |_| \___| |_|  
+  | |  | <span style="color:#e6db74">&#39; \  (_-&lt; |  _| / _` | | | | | / -_) | &#39;</span>_|
+ |___| |_<span style="color:#f92672">||</span>_| /__/  <span style="color:#ae81ff">\_</span>_| <span style="color:#ae81ff">\_</span>_,_| |_| |_| <span style="color:#ae81ff">\_</span>__| |_|  
                                                    
 EOF
-</code></pre>
-
-<p>Doing CLI commands (such as creating folder, applying chmod permissions), and explainning them:</p>
-
-<pre><code class="language-bash">echo &quot;Creating /1 (tree) folder...&quot;
+</code></pre></div><p>Doing CLI commands (such as creating folder, applying chmod permissions), and explainning them:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;Creating /1 (tree) folder...&#34;</span>
 mkdir /2
-echo &quot;Setting permissions on /1 folder...&quot;
-chown -R $(id -u):$(id -g) /2
-echo &quot;Testing write permissions on tree folder...&quot;
-echo &quot;If it takes more than 30 seconds, please reboot your device and try again.&quot;
-echo &quot;🤓 If u're nerd: root will be needed for applying chmod to folder. So, instead of being owned by root, tree folder will be writable by you as normal user.&quot;
+echo <span style="color:#e6db74">&#34;Setting permissions on /1 folder...&#34;</span>
+chown -R <span style="color:#66d9ef">$(</span>id -u<span style="color:#66d9ef">)</span>:<span style="color:#66d9ef">$(</span>id -g<span style="color:#66d9ef">)</span> /2
+echo <span style="color:#e6db74">&#34;Testing write permissions on tree folder...&#34;</span>
+echo <span style="color:#e6db74">&#34;If it takes more than 30 seconds, please reboot your device and try again.&#34;</span>
+echo <span style="color:#e6db74">&#34;🤓 If u&#39;re nerd: root will be needed for applying chmod to folder. So, instead of being owned by root, tree folder will be writable by you as normal user.&#34;</span>
 echo -n &gt; /2/temp.txt
-</code></pre>
-
-<p>After Floflis Central identifies <code>temp.txt</code> exists, it creates <code>temp2.txt</code>. And when bash script identifies that:</p>
-
-<pre><code class="language-bash">if [ -e /2/temp2.txt ]
-then
+</code></pre></div><p>After Floflis Central identifies <code>temp.txt</code> exists, it creates <code>temp2.txt</code>. And when bash script identifies that:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -e /2/temp2.txt <span style="color:#f92672">]</span>
+<span style="color:#66d9ef">then</span>
     rm /2/temp.txt
     rm /2/temp2.txt
-    echo &quot;Creating settings folder...&quot;
+    echo <span style="color:#e6db74">&#34;Creating settings folder...&#34;</span>
     mkdir /2/config
-    echo &quot;Creating sys folder...&quot;
+    echo <span style="color:#e6db74">&#34;Creating sys folder...&#34;</span>
     mkdir /2/Floflis
-    echo &quot;&quot;
+    echo <span style="color:#e6db74">&#34;&#34;</span>
     tar xfvz 
-fi
-</code></pre>
-
-<p>Bash identifies Floflis Central had created <code>temp2.txt</code>, and goes to next step; that is the primitive way I thought to make the two proccesses collaborate and communicate with each other.</p>
-
-<p>Day 2 I&rsquo;ve worked more on the bash installer, and tunned a few things on Floflis itself:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/8.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/9.png" alt="" /></p>
-
-<p>Did a security audit of Floflis Central&rsquo;s NPM dependencies:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/16.png" alt="" /></p>
-
+<span style="color:#66d9ef">fi</span>
+</code></pre></div><p>Bash identifies Floflis Central had created <code>temp2.txt</code>, and goes to next step; that is the primitive way I thought to make the two proccesses collaborate and communicate with each other.</p>
+<p>Day 2 I've worked more on the bash installer, and tunned a few things on Floflis itself:</p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/8.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/9.png" alt=""></p>
+<p>Did a security audit of Floflis Central's NPM dependencies:</p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/16.png" alt=""></p>
 <p>About to replace KeePassXC with KeeWeb (Electron version), but both KeePassXC and Minetest are amazingly smaller compared to a Electron app:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/17.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/18.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/19.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/17.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/18.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/19.png" alt=""></p>
 <p>Yes, I need to make any Floflis&rsquo; Electron apps to depend on global shared modules instead of duplicing their own.</p>
-
 <p>Created a icon/shortcut for Floflis Central, on Explore menu (pinned and on lists) and desktop/launcher.</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/10.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/11.png" alt="" /></p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/12.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/10.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/11.png" alt=""></p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/12.png" alt=""></p>
 <p>Replaced <code>home</code> to <code>tree</code> link in Explore menu:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/13.png" alt="" /></p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/13.png" alt=""></p>
 <p>Renamed <code>System Settings</code> to simply <code>Settings</code>, and replaced its link to Floflis Central:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/14.png" alt="" /></p>
-
-<p>But Floflis Central isn&rsquo;t openning from these links:</p>
-
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/15.png" alt="" /></p>
-
-<p>I&rsquo;ll need to create a executable bash script for openning Floflis Central, as Cinnamon links only accepts executables and not commands.</p>
-
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/14.png" alt=""></p>
+<p>But Floflis Central isn't openning from these links:</p>
+<p><img src="/blog/img/posts/development-log-01-03-july-2019/15.png" alt=""></p>
+<p>I'll need to create a executable bash script for openning Floflis Central, as Cinnamon links only accepts executables and not commands.</p>
 <p>Today, did a good re-draft of my paper notes (lines instead of drawing, and three sections: search, develop and a todo list for other projects) for Floflis development and some studies about Linux on routers. Also, cleanning junk files and programs.</p>
 
 
@@ -291,7 +244,7 @@ fi
         
             <li><a href="/blog/2019/06/floflis-launch-has-been-postponed-to-july/">Floflis launch has been postponed to July</a></li>
         
-            <li><a href="/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/">Updated blog with translations and RSS/JSON feed</a></li>
+            <li><a href="/blog/2019/06/updated-blog-with-translations-and-rss/json-feed/">Updated blog with translations and RSS/JSON feed</a></li>
         
             <li><a href="/blog/2019/06/our-blog-is-working-and-fully-personalized/">Our blog is working and fully personalized</a></li>
         
@@ -323,6 +276,10 @@ fi
         </li>
         
         <li>
+            <a href="/blog/post/">Posts</a>
+        </li>
+        
+        <li>
             <a href="/blog/2019/07/development-log-01-03-july-2019/">Development log - 01-03 July 2019</a>
         </li>
         
@@ -332,10 +289,6 @@ fi
         
         <li>
             <a href="/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/">.ISO of 17.4 GB! We need to compress it</a>
-        </li>
-        
-        <li>
-            <a href="/blog/2019/06/floflis-launch-has-been-postponed-to-july/">Floflis launch has been postponed to July</a>
         </li>
         
     </ol>
@@ -397,7 +350,7 @@ fi
 
 <footer class="blog-footer w-100">
     <nav class="navbar navbar-light bg-light">
-        <p class="w-100 text-center">(c) 2011-2019 Floflis OS</p>
+        <p class="w-100 text-center">(c) 2019-2020 Floflis Platform</p>
         <p class="w-100 text-center"><a href="#">Back to top</a></p>
     </nav>
 </footer>

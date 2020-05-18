@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Floflis &#39;Blog</title>
@@ -6,13 +6,14 @@
     <description>Recent content in Categories on Floflis &#39;Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/eo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sekureco</title>
+      <title>sekureco</title>
       <link>https://floflis.github.io/blog/eo/categories/sekureco/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
@@ -21,7 +22,7 @@
     </item>
     
     <item>
-      <title>Ŝtipoj</title>
+      <title>ŝtipoj</title>
       <link>https://floflis.github.io/blog/eo/categories/%C5%9Dtipoj/</link>
       <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
       

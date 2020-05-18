@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Troncos on Blog de Floflis</title>
+    <title>troncos on Blog de Floflis</title>
     <link>https://floflis.github.io/blog/es/categories/troncos/</link>
-    <description>Recent content in Troncos on Blog de Floflis</description>
+    <description>Recent content in troncos on Blog de Floflis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
     <lastBuildDate>Sun, 23 Jun 2019 14:33:54 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/es/categories/troncos/index.xml" rel="self" type="application/rss+xml" />

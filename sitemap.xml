@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://floflis.github.io/blog/en/sitemap.xml</loc>
-		
-	   	<lastmod>2019-07-05T09:36:00-04:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://floflis.github.io/blog/es/sitemap.xml</loc>
-		
-	   	<lastmod>2019-06-23T18:11:28-04:00</lastmod>
-		
-	</sitemap>
 	
 	<sitemap>
 	   	<loc>https://floflis.github.io/blog/de/sitemap.xml</loc>
@@ -23,7 +9,21 @@
 	</sitemap>
 	
 	<sitemap>
+	   	<loc>https://floflis.github.io/blog/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-07-05T09:36:00-04:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
 	   	<loc>https://floflis.github.io/blog/eo/sitemap.xml</loc>
+		
+	   	<lastmod>2019-06-23T18:11:28-04:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://floflis.github.io/blog/es/sitemap.xml</loc>
 		
 	   	<lastmod>2019-06-23T18:11:28-04:00</lastmod>
 		

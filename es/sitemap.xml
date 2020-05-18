@@ -1,6 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://floflis.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://floflis.github.io/blog/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://floflis.github.io/blog/eo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://floflis.github.io/blog/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/categories/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://floflis.github.io/blog/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://floflis.github.io/blog/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://floflis.github.io/blog/eo/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://floflis.github.io/blog/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/tags/informes/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+  </url>
   
   <url>
     <loc>https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/</loc>
@@ -25,6 +80,71 @@
                 hreflang="es"
                 href="https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/post/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://floflis.github.io/blog/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://floflis.github.io/blog/de/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://floflis.github.io/blog/eo/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://floflis.github.io/blog/es/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/tags/seguridad/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/categories/seguridad/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/tags/</loc>
+    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://floflis.github.io/blog/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://floflis.github.io/blog/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://floflis.github.io/blog/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://floflis.github.io/blog/es/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</loc>
+    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
   </url>
   
   <url>
@@ -53,17 +173,26 @@
   </url>
   
   <url>
+    <loc>https://floflis.github.io/blog/es/tags/troncos/</loc>
+    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://floflis.github.io/blog/es/categories/troncos/</loc>
+    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://floflis.github.io/blog/es/authors/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://floflis.github.io/blog/authors/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
                 href="https://floflis.github.io/blog/de/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://floflis.github.io/blog/authors/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -75,145 +204,6 @@
                 hreflang="es"
                 href="https://floflis.github.io/blog/es/authors/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://floflis.github.io/blog/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://floflis.github.io/blog/eo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://floflis.github.io/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://floflis.github.io/blog/es/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/categories/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://floflis.github.io/blog/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://floflis.github.io/blog/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://floflis.github.io/blog/eo/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://floflis.github.io/blog/es/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/tags/informes/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/post/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://floflis.github.io/blog/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://floflis.github.io/blog/de/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://floflis.github.io/blog/eo/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://floflis.github.io/blog/es/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</loc>
-    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/tags/seguridad/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/categories/seguridad/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/tags/</loc>
-    <lastmod>2019-06-23T18:11:28-04:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://floflis.github.io/blog/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://floflis.github.io/blog/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://floflis.github.io/blog/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://floflis.github.io/blog/es/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/tags/troncos/</loc>
-    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://floflis.github.io/blog/es/categories/troncos/</loc>
-    <lastmod>2019-06-23T14:33:54-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

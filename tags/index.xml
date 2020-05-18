@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Floflis&#39; Blog</title>
@@ -6,23 +6,14 @@
     <description>Recent content in Tags on Floflis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 22:52:42 -0400</lastBuildDate>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 09:36:00 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog</title>
-      <link>https://floflis.github.io/blog/tags/blog/</link>
-      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
-      
-      <guid>https://floflis.github.io/blog/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
+      <title>development</title>
       <link>https://floflis.github.io/blog/tags/development/</link>
       <pubDate>Fri, 05 Jul 2019 09:36:00 -0400</pubDate>
       
@@ -31,7 +22,7 @@
     </item>
     
     <item>
-      <title>Logs</title>
+      <title>logs</title>
       <link>https://floflis.github.io/blog/tags/logs/</link>
       <pubDate>Fri, 05 Jul 2019 09:36:00 -0400</pubDate>
       
@@ -40,16 +31,16 @@
     </item>
     
     <item>
-      <title>Presentation</title>
-      <link>https://floflis.github.io/blog/tags/presentation/</link>
-      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      <title>blog</title>
+      <link>https://floflis.github.io/blog/tags/blog/</link>
+      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/tags/presentation/</guid>
+      <guid>https://floflis.github.io/blog/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Reports</title>
+      <title>reports</title>
       <link>https://floflis.github.io/blog/tags/reports/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
@@ -58,11 +49,20 @@
     </item>
     
     <item>
-      <title>Security</title>
+      <title>security</title>
       <link>https://floflis.github.io/blog/tags/security/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
       <guid>https://floflis.github.io/blog/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>https://floflis.github.io/blog/tags/presentation/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/tags/presentation/</guid>
       <description></description>
     </item>
     

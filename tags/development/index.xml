@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Floflis&#39; Blog</title>
+    <title>development on Floflis&#39; Blog</title>
     <link>https://floflis.github.io/blog/tags/development/</link>
-    <description>Recent content in Development on Floflis&#39; Blog</description>
+    <description>Recent content in development on Floflis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
     <lastBuildDate>Fri, 05 Jul 2019 09:36:00 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
@@ -33,7 +33,7 @@ Floflis Home Instead of upgrading from Floflis Basic (would work on Windows 95 m
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&amp;rsquo;t worked), for cleanning junk storage usage:</description>
+Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Core Very lightweight, can run from a router to even a Nintendo DS.</description
       
       <guid>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
       <description>After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&amp;rsquo; Layers).
-I&amp;rsquo;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
+I&#39;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
     </item>
     
     <item>

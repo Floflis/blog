@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Floflis&#39; Blog</title>
@@ -6,7 +6,7 @@
     <description>Recent content on Floflis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
     <lastBuildDate>Fri, 05 Jul 2019 09:36:00 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -33,7 +33,7 @@ Floflis Home Instead of upgrading from Floflis Basic (would work on Windows 95 m
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&amp;rsquo;t worked), for cleanning junk storage usage:</description>
+Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Core Very lightweight, can run from a router to even a Nintendo DS.</description
       
       <guid>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
       <description>After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&amp;rsquo; Layers).
-I&amp;rsquo;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
+I&#39;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
     </item>
     
     <item>
@@ -69,12 +69,12 @@ I&amp;rsquo;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root
     
     <item>
       <title>Updated blog with translations and RSS/JSON feed</title>
-      <link>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/</link>
+      <link>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss/json-feed/</link>
       <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss-json-feed/</guid>
+      <guid>https://floflis.github.io/blog/2019/06/updated-blog-with-translations-and-rss/json-feed/</guid>
       <description>It were hard to work on Floflis&amp;rsquo; Blog (and Floflis itself, even more), as there were people with need to use my notebook for hours. But I could make it working 100%.
-Now the header haves menus (for main site, manuals, source-code) and these menus and blog&amp;rsquo;s title are now fully translated.
+Now the header haves menus (for main site, manuals, source-code) and these menus and blog&#39;s title are now fully translated.
 Yes, I know the blog needs a favicon, a comment system (like Disqus), translations in all posts and new languages available.</description>
     </item>
     
@@ -84,9 +84,9 @@ Yes, I know the blog needs a favicon, a comment system (like Disqus), translatio
       <pubDate>Mon, 24 Jun 2019 11:42:59 -0400</pubDate>
       
       <guid>https://floflis.github.io/blog/2019/06/our-blog-is-working-and-fully-personalized/</guid>
-      <description>Yesterday I&amp;rsquo;ve left the whole day working on Floflis&amp;rsquo; blog. And today, at morning, in less than two hours I&amp;rsquo;ve personalized the whole blog.
+      <description>Yesterday I&#39;ve left the whole day working on Floflis&amp;rsquo; blog. And today, at morning, in less than two hours I&#39;ve personalized the whole blog.
 It loads a local logo (were reading from Floflis site), haves its title (did it today), personalized menu items (needs translation), added Esperanto language (needs a pull request to Bootstrap theme), and added its first two posts with tags and categories.
-I don&amp;rsquo;t see GoHugo as a good platform for building sites, not even for blogs, but for now it is being totally useful for building blogs.</description>
+I don&#39;t see GoHugo as a good platform for building sites, not even for blogs, but for now it is being totally useful for building blogs.</description>
     </item>
     
     <item>
@@ -96,9 +96,9 @@ I don&amp;rsquo;t see GoHugo as a good platform for building sites, not even for
       
       <guid>https://floflis.github.io/blog/2019/06/electron-security-reports-for-floflis-pre-installed-apps/</guid>
       <description>Some days ago I were studying about security auditors on Linux, firstly started with Electron apps auditing.
-The first auditing tool (and currently the only I&amp;rsquo;m using) is Electronegativity by Doyensec.
-Electronegativity had pointed vulnerabilities in all apps. I don&amp;rsquo;t know if they are really vulnerabilities or just JS best practices tips.
-I&amp;rsquo;ve reported them to all developers, and they seemed skeptical, and ignored. But I&amp;rsquo;m committed to try to fix vulnerabilities in any app I develop for Floflis, specially its built-in apps.</description>
+The first auditing tool (and currently the only I&#39;m using) is Electronegativity by Doyensec.
+Electronegativity had pointed vulnerabilities in all apps. I don&#39;t know if they are really vulnerabilities or just JS best practices tips.
+I&#39;ve reported them to all developers, and they seemed skeptical, and ignored. But I&#39;m committed to try to fix vulnerabilities in any app I develop for Floflis, specially its built-in apps.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ I&amp;rsquo;ve reported them to all developers, and they seemed skeptical, and i
       
       <guid>https://floflis.github.io/blog/2019/06/first-post/</guid>
       <description>This is the first post on Floflis&amp;rsquo; Blog, testing if GoHugo with hugo-bootstrap theme works.
-For some time I&amp;rsquo;m wanting to log the development of Floflis on its own blog. Now it seems to be possible ❤</description>
+For some time I&#39;m wanting to log the development of Floflis on its own blog. Now it seems to be possible ❤</description>
     </item>
     
   </channel>

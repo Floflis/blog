@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog de Floflis</title>
@@ -6,14 +6,14 @@
     <description>Recent content in Tags on Blog de Floflis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
     <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Informes</title>
+      <title>informes</title>
       <link>https://floflis.github.io/blog/es/tags/informes/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
@@ -22,16 +22,7 @@
     </item>
     
     <item>
-      <title>Presentación</title>
-      <link>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</link>
-      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
-      
-      <guid>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seguridad</title>
+      <title>seguridad</title>
       <link>https://floflis.github.io/blog/es/tags/seguridad/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
@@ -40,7 +31,16 @@
     </item>
     
     <item>
-      <title>Troncos</title>
+      <title>presentación</title>
+      <link>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/es/tags/presentaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>troncos</title>
       <link>https://floflis.github.io/blog/es/tags/troncos/</link>
       <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
       

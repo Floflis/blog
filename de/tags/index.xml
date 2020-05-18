@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Floflis &#39;Blog</title>
@@ -6,14 +6,14 @@
     <description>Recent content in Tags on Floflis &#39;Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2011-2019 Floflis OS</copyright>
+    <copyright>(c) 2019-2020 Floflis Platform</copyright>
     <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
     
 	<atom:link href="https://floflis.github.io/blog/de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Berichte</title>
+      <title>berichte</title>
       <link>https://floflis.github.io/blog/de/tags/berichte/</link>
       <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
       
@@ -22,7 +22,16 @@
     </item>
     
     <item>
-      <title>Protokolliert</title>
+      <title>sicherheit</title>
+      <link>https://floflis.github.io/blog/de/tags/sicherheit/</link>
+      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
+      
+      <guid>https://floflis.github.io/blog/de/tags/sicherheit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protokolliert</title>
       <link>https://floflis.github.io/blog/de/tags/protokolliert/</link>
       <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
       
@@ -36,15 +45,6 @@
       <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
       
       <guid>https://floflis.github.io/blog/de/tags/pr%C3%A4sentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sicherheit</title>
-      <link>https://floflis.github.io/blog/de/tags/sicherheit/</link>
-      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
-      
-      <guid>https://floflis.github.io/blog/de/tags/sicherheit/</guid>
       <description></description>
     </item>
     
