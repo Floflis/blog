@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Blog de Floflis</title>
-    <link>https://floflis.github.io/blog/es/authors/</link>
+    <link>/es/authors/</link>
     <description>Recent content in Authors on Blog de Floflis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2019-2020 Floflis Platform</copyright>
+    <copyright>(c) 2019-2021 Floflis Platform</copyright>
     
-	<atom:link href="https://floflis.github.io/blog/es/authors/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/es/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Primer mensaje</title>
+      <link>/es/2019/06/primer-mensaje/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>/es/2019/06/primer-mensaje/</guid>
+      <description>&lt;p&gt;Esta es la primera publicación en el blog de Floflis, que prueba si GoHugo con el tema &lt;code&gt;hugo-bootstrap&lt;/code&gt; funciona.&lt;/p&gt;
+&lt;p&gt;Desde hace algún tiempo quiero registrar el desarrollo de Floflis en su propio blog. Ahora parece que es posible ❤&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

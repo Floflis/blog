@@ -2,26 +2,15 @@
     "version" : "https://jsonfeed.org/version/1",
     "title" : "Posts on Floflis 'Blog",
     "description": "Recent content in Posts on Floflis 'Blog",
-    "home_page_url" : "https://floflis.github.io/blog/",
-    "feed_url" : "https://floflis.github.io/blog/de/post/index.json",
+    "home_page_url" : "/",
+    "feed_url" : "/de/post/index.json",
     "items" : [
-    {
-        "title" : "Die Sicherheitsberichte von Electron für die vorinstallierten Floflis-Apps",
-        "date_published" : "2019-06-23T18:11:28-04:00",
-        "date_modified" : "2019-06-23T18:11:28-04:00",
-        "id" : "https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/",
-        "url" : "https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/",
-        "author" : {
-          "name" : "Daniell Mesquita"
-        },
-        "content_html" : "\u003cp\u003eVor einigen Tagen habe ich mich mit Sicherheitsprüfern unter Linux befasst und zunächst mit der Prüfung von Electron-Apps begonnen.\u003c/p\u003e\n\u003cp\u003eDas erste Prüfungstool (und derzeit das einzige, das ich verwende) ist die Electronegativity von \u003c!-- raw HTML omitted --\u003eDoyensec\u003c!-- raw HTML omitted --\u003e.\u003c/p\u003e\n\u003cp\u003eDie Elektronegativität wies in allen Apps auf Schwachstellen hin. Ich weiß nicht, ob es sich wirklich um Sicherheitslücken oder nur um Tipps für bewährte Vorgehensweisen bei JS handelt.\u003c/p\u003e\n\u003cp\u003eIch habe sie allen Entwicklern gemeldet, und sie wirkten skeptisch und ignoriert. Aber ich bin fest entschlossen, Schwachstellen in jeder App zu beheben, die ich für Floflis entwickle, insbesondere in den integrierten Apps. Aus diesem Grund werde ich \u003ccode\u003eHTML5 Player\u003c/code\u003e vorübergehend entfernen, da es sich um einen Webbrowser handelt. Dies ist die sinnvollste Art von App.\u003c/p\u003e\n\u003cp\u003eAufgrund der schlechten \u003c!-- raw HTML omitted --\u003eerhaltenen Antwort\u003c!-- raw HTML omitted --\u003e entfernt Floflis \u003ccode\u003enoty\u003c/code\u003e als installierte App.\u003c/p\u003e\n\u003cp\u003e\u003c!-- raw HTML omitted --\u003eKlicken Sie hier\u003c!-- raw HTML omitted --\u003e, um alle Berichte mit einem Link zu ihrem GitHub-Problem anzuzeigen.\u003c/p\u003e\n"
-    },
     {
         "title" : "Erster Artikel",
         "date_published" : "2019-06-23T14:33:54-04:00",
         "date_modified" : "2019-06-23T14:33:54-04:00",
-        "id" : "https://floflis.github.io/blog/de/2019/06/erster-artikel/",
-        "url" : "https://floflis.github.io/blog/de/2019/06/erster-artikel/",
+        "id" : "/de/2019/06/erster-artikel/",
+        "url" : "/de/2019/06/erster-artikel/",
         "author" : {
           "name" : "Daniell Mesquita"
         },

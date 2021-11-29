@@ -2,15 +2,15 @@
     "version" : "https://jsonfeed.org/version/1",
     "title" : "Floflis 'Blog",
     "description": "Recent content on Floflis 'Blog",
-    "home_page_url" : "https://floflis.github.io/blog/",
-    "feed_url" : "https://floflis.github.io/blog/de/index.json",
+    "home_page_url" : "/",
+    "feed_url" : "/de/index.json",
     "items" : [
     {
         "title" : "Posts",
-        "date_published" : "2019-06-23T18:11:28-04:00",
-        "date_modified" : "2019-06-23T18:11:28-04:00",
-        "id" : "https://floflis.github.io/blog/de/post/",
-        "url" : "https://floflis.github.io/blog/de/post/",
+        "date_published" : "2019-06-23T14:33:54-04:00",
+        "date_modified" : "2019-06-23T14:33:54-04:00",
+        "id" : "/de/post/",
+        "url" : "/de/post/",
         "content_html" : ""
     }
     ]

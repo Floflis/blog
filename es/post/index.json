@@ -2,26 +2,15 @@
     "version" : "https://jsonfeed.org/version/1",
     "title" : "Posts on Blog de Floflis",
     "description": "Recent content in Posts on Blog de Floflis",
-    "home_page_url" : "https://floflis.github.io/blog/",
-    "feed_url" : "https://floflis.github.io/blog/es/post/index.json",
+    "home_page_url" : "/",
+    "feed_url" : "/es/post/index.json",
     "items" : [
-    {
-        "title" : "Informes de seguridad Electron para las apps preinstaladas de Floflis",
-        "date_published" : "2019-06-23T18:11:28-04:00",
-        "date_modified" : "2019-06-23T18:11:28-04:00",
-        "id" : "https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/",
-        "url" : "https://floflis.github.io/blog/es/2019/06/informes-de-seguridad-electron-para-las-apps-preinstaladas-de-floflis/",
-        "author" : {
-          "name" : "Daniell Mesquita"
-        },
-        "content_html" : "\u003cp\u003eHace unos días estudiaba sobre auditores de seguridad en Linux, primero comencé con la auditoría de aplicaciones de Electron.\u003c/p\u003e\n\u003cp\u003eLa primera herramienta de auditoría (y actualmente la única que estoy usando) es Electronegativity por \u003c!-- raw HTML omitted --\u003eDoyensec\u003c!-- raw HTML omitted --\u003e.\u003c/p\u003e\n\u003cp\u003eElectronegativity había señalado vulnerabilidades en todas las aplicaciones. No sé si son realmente vulnerabilidades o solo consejos de mejores prácticas de JS.\u003c/p\u003e\n\u003cp\u003eLos he reportado a todos los desarrolladores, y parecían escépticos, y ignoraron. Pero me comprometo a tratar de corregir las vulnerabilidades en cualquier aplicación que desarrolle para Floflis, especialmente sus aplicaciones integradas. Esa es la razón por la que eliminaré temporalmente el \u003ccode\u003eHTML5 Player\u003c/code\u003e, ya que se considera un navegador web: es la aplicación más sensible.\u003c/p\u003e\n\u003cp\u003e\u003c!-- raw HTML omitted --\u003e Haga clic aquí \u003c!-- raw HTML omitted --\u003e para ver todos los informes, con un enlace a su issue de GitHub.\u003c/p\u003e\n"
-    },
     {
         "title" : "Primer mensaje",
         "date_published" : "2019-06-23T14:33:54-04:00",
         "date_modified" : "2019-06-23T14:33:54-04:00",
-        "id" : "https://floflis.github.io/blog/es/2019/06/primer-mensaje/",
-        "url" : "https://floflis.github.io/blog/es/2019/06/primer-mensaje/",
+        "id" : "/es/2019/06/primer-mensaje/",
+        "url" : "/es/2019/06/primer-mensaje/",
         "author" : {
           "name" : "Daniell Mesquita"
         },

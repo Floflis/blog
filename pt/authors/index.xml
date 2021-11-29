@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Blog do Floflis</title>
+    <link>/pt/authors/</link>
+    <description>Recent content in Authors on Blog do Floflis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(c) 2019-2021 Floflis Platform</copyright>
+    
+        <atom:link href="/pt/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,37 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Floflis &#39;Blog</title>
-    <link>https://floflis.github.io/blog/de/</link>
+    <link>/de/</link>
     <description>Recent content on Floflis &#39;Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2019-2020 Floflis Platform</copyright>
-    <lastBuildDate>Sun, 23 Jun 2019 18:11:28 -0400</lastBuildDate>
+    <copyright>(c) 2019-2021 Floflis Platform</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 14:33:54 -0400</lastBuildDate>
     
-	<atom:link href="https://floflis.github.io/blog/de/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/de/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Die Sicherheitsberichte von Electron für die vorinstallierten Floflis-Apps</title>
-      <link>https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/</link>
-      <pubDate>Sun, 23 Jun 2019 18:11:28 -0400</pubDate>
-      
-      <guid>https://floflis.github.io/blog/de/2019/06/die-sicherheitsberichte-von-electron-f%C3%BCr-die-vorinstallierten-floflis-apps/</guid>
-      <description>Vor einigen Tagen habe ich mich mit Sicherheitsprüfern unter Linux befasst und zunächst mit der Prüfung von Electron-Apps begonnen.
-Das erste Prüfungstool (und derzeit das einzige, das ich verwende) ist die Electronegativity von Doyensec.
-Die Elektronegativität wies in allen Apps auf Schwachstellen hin. Ich weiß nicht, ob es sich wirklich um Sicherheitslücken oder nur um Tipps für bewährte Vorgehensweisen bei JS handelt.
-Ich habe sie allen Entwicklern gemeldet, und sie wirkten skeptisch und ignoriert.</description>
-    </item>
     
     <item>
       <title>Erster Artikel</title>
-      <link>https://floflis.github.io/blog/de/2019/06/erster-artikel/</link>
+      <link>/de/2019/06/erster-artikel/</link>
       <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/de/2019/06/erster-artikel/</guid>
-      <description>Dies ist der erste Beitrag auf Floflis &amp;lsquo;Blog, in dem getestet wird, ob GoHugo mit dem Hugo-Bootstrap-Thema funktioniert.
-Seit einiger Zeit möchte ich die Entwicklung von Floflis auf einem eigenen Blog protokollieren. Jetzt scheint es möglich zu sein ❤</description>
+      <guid>/de/2019/06/erster-artikel/</guid>
+      <description>&lt;p&gt;Dies ist der erste Beitrag auf Floflis &amp;lsquo;Blog, in dem getestet wird, ob GoHugo mit dem &lt;code&gt;Hugo-Bootstrap&lt;/code&gt;-Thema funktioniert.&lt;/p&gt;
+&lt;p&gt;Seit einiger Zeit möchte ich die Entwicklung von Floflis auf einem eigenen Blog protokollieren. Jetzt scheint es möglich zu sein ❤&lt;/p&gt;
+</description>
     </item>
     
   </channel>

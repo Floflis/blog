@@ -2,31 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no" name="viewport">
+<link rel="icon" href="icon.ico" />
+<link rel="logo" href="icon.svg" border="true" />
 
 <meta property="og:title" content="Development log - 01-03 July 2019" />
-<meta property="og:description" content="Day 1 I came to Floflis&rsquo; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
+<meta property="og:description" content="Day 1 I came to Floflis&#39; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:" />
+Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/" />
+<meta property="og:url" content="/2019/07/development-log-01-03-july-2019/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2019-07-03T22:30:58-04:00" />
 <meta property="article:modified_time" content="2019-07-03T22:30:58-04:00" /><meta property="og:site_name" content="Floflis&#39; Blog" />
 
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Development log - 01-03 July 2019"/>
-<meta name="twitter:description" content="Day 1 I came to Floflis&rsquo; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
+<meta name="twitter:description" content="Day 1 I came to Floflis&#39; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
 Organized issues page:
 Organized build 071 milestone:
 Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:"/>
+Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:"/>
 
 
 
-    <link rel="canonical" href="https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/">
+    <link rel="canonical" href="../../../2019/07/development-log-01-03-july-2019/">
 
     <title>
       
@@ -35,8 +39,15 @@ Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage 
     </title>
 
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://floflis.github.io/blog/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../plugins/Bootstrap/css/bootstrap.css">
+    
+
+    
+    <link href="../../../css/style.css" rel="stylesheet">
+    <link href="../../../css/style.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../css/all.css">
 
     
 
@@ -44,89 +55,86 @@ Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage 
 
     
   </head>
-  <body>
+  <body class="d-flex flex-column">
     
-      
-
-<header class="blog-header">
+      <header class="blog-header">
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="/blog">
-            <img src="/blog/img/icon.png" width="30" height="30" class="d-inline-block align-top"
-    alt="">
-Floflis&#39; Blog
-
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        <div class="container">
+            <a class="navbar-brand" href="../../../">
+                <img src="../../../logotype.png" width="100%" height="100%" class="d-inline-block align-top"
+    alt="Floflis&#39; Blog" title="Floflis&#39; Blog">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
                 
+
                 
-                <li class="nav-item ">
-                    
-                        <a class="nav-link" href="https://floflis.github.io/">Go to site</a>
-                    
-                </li>
                 
-                <li class="nav-item ">
                     
-                        <a class="nav-link" href="https://floflis.github.io/docs/">Manuals/Documentation</a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://floflis.github.io/">Go to site</a>
+                        </li>
                     
-                </li>
                 
-                <li class="nav-item ">
                     
-                        <a class="nav-link" href="https://github.com/Floflis/blog-source/">Source-code</a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://floflis.github.io/docs/">Manuals/Documentation</a>
+                        </li>
                     
-                </li>
+                
+                    
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://github.com/Floflis/blog-source/">Source-code</a>
+                        </li>
+                    
                 
             </ul>
+
             
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Language
+                        🇬🇧 Language
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         
-                            <a class="dropdown-item" href="https://floflis.github.io/blog/">English</a>
-                        
-                            <a class="dropdown-item" href="https://floflis.github.io/blog/es/">Español</a>
-                        
-                            <a class="dropdown-item" href="https://floflis.github.io/blog/de/">Deutsch</a>
-                        
-                            <a class="dropdown-item" href="https://floflis.github.io/blog/eo/">Esperanto</a>
+                        <a class="dropdown-item" href="../../../2019/07/development-log-01-03-july-2019/">🇬🇧 English</a>
                         
                     </div>
                 </li>
             </ul>
             
         </div>
-    </nav>
+    </div>
+</nav>
 </header>
 
     
 
     
-    <div class="container">
+    <div class="container flex-grow-1">
       <div class="row">
         <div class="col-12 col-lg-8 blog-main">
 
           
 
 <header>
-    <h2 class="blog-post-title">
-    <a class="text-dark" href="/blog/2019/07/development-log-01-03-july-2019/">Development log - 01-03 July 2019</a>
-</h2>
-
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="../../../2019/07/development-log-01-03-july-2019/">Development log - 01-03 July 2019</a>
+    </h1>
     
 
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2019-07-03">Jul 3, 2019</time>
+          
+	        <span class="badge badge-primary"><i class="far fa-calendar-alt"></i>
+            Jul 3, 2019</span>
+          
     
     
         by <span rel="author">Daniell Mesquita</span>
@@ -134,47 +142,46 @@ Floflis&#39; Blog
 </div>
 
     
-<div class="blog-post-tags text-secondary">
-    <strong>Tags:</strong>
+<br/><div class="blog-post-categories text-secondary">
+  
+    <a class="badge badge-primary" href="../../../categories/logs"><i class="fas fa-folder"></i> logs</a>
+  
+</div> 
+
     
-        <a class="badge badge-primary" href="/blog/tags/development">development</a>
-    
-        <a class="badge badge-primary" href="/blog/tags/logs">logs</a>
-    
+<br/><div class="blog-post-categories text-secondary">
+	
+		<a class="badge badge-primary" href="../../../tags/development"><i class="fas fa-tag"></i> development</a>
+	
+		<a class="badge badge-primary" href="../../../tags/logs"><i class="fas fa-tag"></i> logs</a>
+	
 </div>
 
     
-<div class="blog-post-categories text-secondary">
-    <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/blog/categories/logs">logs</a>
-    
-</div>
-
     <hr>
 </header>
 <article class="blog-post">
-    <p>Day 1 I came to Floflis&rsquo; GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).</p>
+    <p>Day 1 I came to Floflis' GitHub organization and openned its &ldquo;meta&rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).</p>
 <p>Organized issues page:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/1.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/1.png" alt=""></p>
 <p>Organized build 071 milestone:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/2.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/2.png" alt=""></p>
 <p>Also, did a audit with Lynis, for the security report of July:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/3.png" alt=""></p>
-<p>Tried to compile/install Stacer (didn't worked), for cleanning junk storage usage:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/4.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/5.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/6.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/3.png" alt=""></p>
+<p>Tried to compile/install Stacer (didn&rsquo;t worked), for cleanning junk storage usage:</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/4.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/5.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/6.png" alt=""></p>
 <p>And started to create the bash script for Floflis Installer:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/7.png" alt=""></p>
-<p>Yes, I don't want to depend on Floflis Central to install Floflis, in favour of Floflis Core; making Floflis Central a simple GUI/UI for the Installer. And it is amazing: bash script is easier than JavaScript! ❤ I didn't thought programming for CLI would be easier than programming for Web.</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/7.png" alt=""></p>
+<p>Yes, I don&rsquo;t want to depend on Floflis Central to install Floflis, in favour of Floflis Core; making Floflis Central a simple GUI/UI for the Installer. And it is amazing: bash script is easier than JavaScript! ❤ I didn&rsquo;t thought programming for CLI would be easier than programming for Web.</p>
 <p>Start of a bash file, jumping a line and showing a welcome message:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
 </span><span style="color:#75715e"></span>
 echo <span style="color:#e6db74">&#34;&#34;</span>
 echo <span style="color:#e6db74">&#34;Welcome!&#34;</span>
 </code></pre></div><p>Showing ASCII art - and any other textbox:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat &lt;&lt; <span style="color:#e6db74">&#34;EOF&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat &lt;&lt; <span style="color:#e6db74">&#34;EOF&#34;</span>
   _            _           
  |_  |   _   _|_  |  o   _ 
  |   |  <span style="color:#f92672">(</span>_<span style="color:#f92672">)</span>   |   |  |  _&gt; 
@@ -186,7 +193,7 @@ echo <span style="color:#e6db74">&#34;Welcome!&#34;</span>
                                                    
 EOF
 </code></pre></div><p>Doing CLI commands (such as creating folder, applying chmod permissions), and explainning them:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;Creating /1 (tree) folder...&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;Creating /1 (tree) folder...&#34;</span>
 mkdir /2
 echo <span style="color:#e6db74">&#34;Setting permissions on /1 folder...&#34;</span>
 chown -R <span style="color:#66d9ef">$(</span>id -u<span style="color:#66d9ef">)</span>:<span style="color:#66d9ef">$(</span>id -g<span style="color:#66d9ef">)</span> /2
@@ -195,7 +202,7 @@ echo <span style="color:#e6db74">&#34;If it takes more than 30 seconds, please r
 echo <span style="color:#e6db74">&#34;🤓 If u&#39;re nerd: root will be needed for applying chmod to folder. So, instead of being owned by root, tree folder will be writable by you as normal user.&#34;</span>
 echo -n &gt; /2/temp.txt
 </code></pre></div><p>After Floflis Central identifies <code>temp.txt</code> exists, it creates <code>temp2.txt</code>. And when bash script identifies that:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -e /2/temp2.txt <span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -e /2/temp2.txt <span style="color:#f92672">]</span>
 <span style="color:#66d9ef">then</span>
     rm /2/temp.txt
     rm /2/temp2.txt
@@ -207,62 +214,58 @@ echo -n &gt; /2/temp.txt
     tar xfvz 
 <span style="color:#66d9ef">fi</span>
 </code></pre></div><p>Bash identifies Floflis Central had created <code>temp2.txt</code>, and goes to next step; that is the primitive way I thought to make the two proccesses collaborate and communicate with each other.</p>
-<p>Day 2 I've worked more on the bash installer, and tunned a few things on Floflis itself:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/8.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/9.png" alt=""></p>
-<p>Did a security audit of Floflis Central's NPM dependencies:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/16.png" alt=""></p>
+<p>Day 2 I&rsquo;ve worked more on the bash installer, and tunned a few things on Floflis itself:</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/8.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/9.png" alt=""></p>
+<p>Did a security audit of Floflis Central&rsquo;s NPM dependencies:</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/16.png" alt=""></p>
 <p>About to replace KeePassXC with KeeWeb (Electron version), but both KeePassXC and Minetest are amazingly smaller compared to a Electron app:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/17.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/18.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/19.png" alt=""></p>
-<p>Yes, I need to make any Floflis&rsquo; Electron apps to depend on global shared modules instead of duplicing their own.</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/17.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/19.png" alt=""></p>
+<p>Yes, I need to make any Floflis' Electron apps to depend on global shared modules instead of duplicing their own.</p>
 <p>Created a icon/shortcut for Floflis Central, on Explore menu (pinned and on lists) and desktop/launcher.</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/10.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/11.png" alt=""></p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/12.png" alt=""></p>
-<p>Replaced <code>home</code> to <code>tree</code> link in Explore menu:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/13.png" alt=""></p>
-<p>Renamed <code>System Settings</code> to simply <code>Settings</code>, and replaced its link to Floflis Central:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/14.png" alt=""></p>
-<p>But Floflis Central isn't openning from these links:</p>
-<p><img src="/blog/img/posts/development-log-01-03-july-2019/15.png" alt=""></p>
-<p>I'll need to create a executable bash script for openning Floflis Central, as Cinnamon links only accepts executables and not commands.</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/10.png" alt=""></p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/12.png" alt=""></p>
+<p>Replaced <code>home</code> to <code>tree</code> link in Explore menu.</p>
+<p>Renamed <code>System Settings</code> to simply <code>Settings</code>, and replaced its link to Floflis Central.</p>
+<p>But Floflis Central isn&rsquo;t openning from these links:</p>
+<p><img src="../../../img/posts/development-log-01-03-july-2019/15.png" alt=""></p>
+<p>I&rsquo;ll need to create a executable bash script for openning Floflis Central, as Cinnamon links only accepts executables and not commands.</p>
 <p>Today, did a good re-draft of my paper notes (lines instead of drawing, and three sections: search, develop and a todo list for other projects) for Floflis development and some studies about Linux on routers. Also, cleanning junk files and programs.</p>
 
 
-    
-
-    
-
-    <h4>See also</h4>
-    <ul>
-        
-            <li><a href="/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/">Floflis&#39; Layers (Recipe, Core, Substratum, Base, Ultimate)</a></li>
-        
-            <li><a href="/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/">.ISO of 17.4 GB! We need to compress it</a></li>
-        
-            <li><a href="/blog/2019/06/floflis-launch-has-been-postponed-to-july/">Floflis launch has been postponed to July</a></li>
-        
-            <li><a href="/blog/2019/06/updated-blog-with-translations-and-rss/json-feed/">Updated blog with translations and RSS/JSON feed</a></li>
-        
-            <li><a href="/blog/2019/06/our-blog-is-working-and-fully-personalized/">Our blog is working and fully personalized</a></li>
-        
-    </ul>
-
-
 </article>
+
+<footer>
+    <hr>
+
+    <p class="share">
+	<h2>Share this post:</h2>
+	<a class="badge badge-primary" href="https://twitter.com/intent/tweet/?text= - Development%20log%20-%2001-03%20July%202019 - %2f2019%2f07%2fdevelopment-log-01-03-july-2019%2f - @FloflisOS - %23" aria-label=""><i class="fab fa-twitter"></i> Twitter</a>
+	<a class="badge badge-primary" href="https://facebook.com/sharer/sharer.php?u=%2f2019%2f07%2fdevelopment-log-01-03-july-2019%2f" aria-label=""><i class="fab fa-facebook"></i> Facebook</a>
+	<a class="badge badge-primary" href="mailto:?subject=Development%20log%20-%2001-03%20July%202019&body= - Development%20log%20-%2001-03%20July%202019 - %2f2019%2f07%2fdevelopment-log-01-03-july-2019%2f" aria-label=""><i class="far fa-envelope"></i> Email</a>
+</p>
+	
+<div id="disqus_thread"></div>
+
+
+</footer>
 
 
 
         </div>
 
         <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
-    <h5><img width="16px" src="/blog/Feed-icon.svg"/> Subscribe to our News</h5>
-    <ul>
-        <li><a href="index.json" target="blank">JsonFeed</a> <small>(supported by <a href="" target="_blank">Alertaj app</a>)</small></li>
-        <li><a href="index.xml" target="blank">RSS</a> <small>(for majority of reader apps)</small></li>
-    </ul>
+    <section>
+<h5><img width="16px" src="../../../Feed-icon.svg"/> Subscribe to our News</h5>
+<ul>
+<li><a href="index.json" target="blank">JsonFeed</a> <small>(supported by <a href="https://github.com/Floflis/alertz" target="_blank">Alertz app</a>)</small></li>
+<li><a href="index.xml" target="blank">RSS</a> <small>(for majority of reader apps)</small></li>
+</ul>
+
+</section>
+
+		<hr>
     
         
 
@@ -272,68 +275,46 @@ echo -n &gt; /2/temp.txt
     <ol class="list-unstyled">
         
         <li>
-            <a href="/blog/2019/07/new-layers-for-floflis-dna-and-home/">New layers for Floflis: DNA and Home</a>
+            <a href="../../../2019/07/new-layers-for-floflis-dna-and-home/">New layers for Floflis: DNA and Home</a>
         </li>
         
         <li>
-            <a href="/blog/post/">Posts</a>
+            <a href="../../../2019/07/development-log-01-03-july-2019/">Development log - 01-03 July 2019</a>
         </li>
         
         <li>
-            <a href="/blog/2019/07/development-log-01-03-july-2019/">Development log - 01-03 July 2019</a>
+            <a href="../../../2019/07/floflis-layers-recipe-core-substratum-base-ultimate/">Floflis' Layers (Recipe, Core, Substratum, Base, Ultimate)</a>
         </li>
         
         <li>
-            <a href="/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/">Floflis&rsquo; Layers (Recipe, Core, Substratum, Base, Ultimate)</a>
+            <a href="../../../2019/07/.iso-of-17.4-gb-we-need-to-compress-it/">.ISO of 17.4 GB! We need to compress it</a>
         </li>
         
         <li>
-            <a href="/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/">.ISO of 17.4 GB! We need to compress it</a>
+            <a href="../../../2019/06/floflis-launch-has-been-postponed-to-july/">Floflis launch has been postponed to July</a>
         </li>
         
     </ol>
 </section>
 
-    
-    
-        <section>
-    
-        
-    
-        
-        <h4>Categories</h4>
-        <p>
-            
-            <a class="badge badge-primary" href="/blog/categories/logs">logs</a>
-            
-            <a class="badge badge-primary" href="/blog/categories/security">security</a>
-            
-        </p>
-        
-    
-        
-        <h4>Tags</h4>
-        <p>
-            
-            <a class="badge badge-primary" href="/blog/tags/blog">blog</a>
-            
-            <a class="badge badge-primary" href="/blog/tags/development">development</a>
-            
-            <a class="badge badge-primary" href="/blog/tags/logs">logs</a>
-            
-            <a class="badge badge-primary" href="/blog/tags/presentation">presentation</a>
-            
-            <a class="badge badge-primary" href="/blog/tags/reports">reports</a>
-            
-            <a class="badge badge-primary" href="/blog/tags/security">security</a>
-            
-        </p>
-        
-    
-</section>
-    
-</aside>
 
+    
+		<hr>
+    <section>
+	<h4>Tags</h4>
+	<span>
+		
+		<a class="badge badge-primary" href="../../../tags/blog"><i class="fas fa-tag"></i> blog</a>
+		
+		<a class="badge badge-primary" href="../../../tags/development"><i class="fas fa-tag"></i> development</a>
+		
+		<a class="badge badge-primary" href="../../../tags/logs"><i class="fas fa-tag"></i> logs</a>
+		
+		<a class="badge badge-primary" href="../../../tags/presentation"><i class="fas fa-tag"></i> presentation</a>
+		
+	</span>
+</section>
+</aside>
 
       </div>
     </div>
@@ -347,20 +328,37 @@ echo -n &gt; /2/temp.txt
 
 
 
-
-<footer class="blog-footer w-100">
-    <nav class="navbar navbar-light bg-light">
-        <p class="w-100 text-center">(c) 2019-2020 Floflis Platform</p>
-        <p class="w-100 text-center"><a href="#">Back to top</a></p>
-    </nav>
+<footer class="footer blog-footer w-100 bg-light d-flex align-items-center">
+	<p class="w-100 text-center text-muted">(c) 2019-2021 Floflis Platform</p>
 </footer>
 
     
 
     
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../../../plugins/jQuery/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../../../plugins/inlineDisqussions/inlineDisqussions.css" />
+	<script src="../../../plugins/inlineDisqussions/inlineDisqussions.js"></script>
+	<script>
+      disqus_shortname = 'stillneedathirdtestament';
+      jQuery(document).ready(function() {
+        jQuery("p:not('.highlighted, .narrow-p')").inlineDisqussions({
+          position: 'right'
+        });
+        jQuery("p.highlighted").inlineDisqussions({
+          identifier: 'disqussion-highlighted',
+          highlighted: true,
+        });
+        jQuery("p.narrow-p").inlineDisqussions({
+          identifier: 'disqussion-narrow-p',
+          position: 'left'
+        });
+      });
+    </script>
+    <script src="../../../plugins/Popper.js/popper.min.js"></script>
+	
+    <script src="../../../plugins/Bootstrap/js/bootstrap.min.js"></script>
+	
   </body>
 </html>

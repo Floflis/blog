@@ -1,70 +1,238 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on Floflis&#39; Blog</title>
-    <link>https://floflis.github.io/blog/tags/development/</link>
+    <link>/tags/development/</link>
     <description>Recent content in development on Floflis&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2019-2020 Floflis Platform</copyright>
+    <copyright>(c) 2019-2021 Floflis Platform</copyright>
     <lastBuildDate>Fri, 05 Jul 2019 09:36:00 -0400</lastBuildDate>
     
-	<atom:link href="https://floflis.github.io/blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New layers for Floflis: DNA and Home</title>
-      <link>https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/</link>
+      <link>/2019/07/new-layers-for-floflis-dna-and-home/</link>
       <pubDate>Fri, 05 Jul 2019 09:36:00 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/07/new-layers-for-floflis-dna-and-home/</guid>
-      <description>I would post that on day 3, but had other things to do. Thinking about Floflis powering routers (wireless), Core is a too much high layer.
-Floflis DNA Then, Floflis DNA layer will get some things from Floflis Core (its installer, tree folder) while not having huge things such as NodeJS (making them optional to install; inside a router, possible to upgrade from DNA to Core).
-Floflis Home Instead of upgrading from Floflis Basic (would work on Windows 95 machines) to Floflis Ultimate (heavyweight), it can have a middle stage for intermediate devices: Floflis Home.</description>
+      <guid>/2019/07/new-layers-for-floflis-dna-and-home/</guid>
+      <description>&lt;p&gt;I would post that on day 3, but had other things to do.
+Thinking about Floflis powering routers (wireless), Core is a too much high layer.&lt;/p&gt;
+&lt;h1 id=&#34;floflis-dna&#34;&gt;Floflis DNA&lt;/h1&gt;
+&lt;p&gt;Then, Floflis DNA layer will get some things from Floflis Core (its installer, tree folder) while not having huge things such as NodeJS (making them optional to install; inside a router, possible to upgrade from DNA to Core).&lt;/p&gt;
+&lt;h1 id=&#34;floflis-home&#34;&gt;Floflis Home&lt;/h1&gt;
+&lt;p&gt;Instead of upgrading from Floflis Basic (would work on Windows 95 machines) to Floflis Ultimate (heavyweight), it can have a middle stage for intermediate devices: Floflis Home.
+So, this is the dependence scheme, including layers:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;BIOS/UEFI
+  -- Unix/Firmware
+    -- Linux kernel
+      --Floflis DNA
+        -- Floflis Core
+          -- BSD/GNU OS/Debian
+            -- Floflis Substratum
+              -- Cinnamon Desktop Environment
+                -- Floflis Basic
+                  -- Floflis Home
+                    -- Floflis Ultimate
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I&amp;rsquo;ll write the complete and official guide about Layers on Floflis Documentation.&lt;/p&gt;
+&lt;p&gt;Read more about Floflis Layers &lt;a href=&#34;../../../2019/07/floflis-layers-recipe-core-substratum-base-ultimate/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Development log - 01-03 July 2019</title>
-      <link>https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/</link>
+      <link>/2019/07/development-log-01-03-july-2019/</link>
       <pubDate>Wed, 03 Jul 2019 22:30:58 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/07/development-log-01-03-july-2019/</guid>
-      <description>Day 1 I came to Floflis&amp;rsquo; GitHub organization and openned its &amp;ldquo;meta&amp;rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).
-Organized issues page:
-Organized build 071 milestone:
-Also, did a audit with Lynis, for the security report of July:
-Tried to compile/install Stacer (didn&#39;t worked), for cleanning junk storage usage:</description>
+      <guid>/2019/07/development-log-01-03-july-2019/</guid>
+      <description>&lt;p&gt;Day 1 I came to Floflis&#39; GitHub organization and openned its &amp;ldquo;meta&amp;rdquo; repo, which contains issues referring to the whole OS; on it, organized its issues for the upcomming build 071 (moved issues to other milestones, and created new ones).&lt;/p&gt;
+&lt;p&gt;Organized issues page:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Organized build 071 milestone:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Also, did a audit with Lynis, for the security report of July:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tried to compile/install Stacer (didn&amp;rsquo;t worked), for cleanning junk storage usage:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And started to create the bash script for Floflis Installer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/7.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yes, I don&amp;rsquo;t want to depend on Floflis Central to install Floflis, in favour of Floflis Core; making Floflis Central a simple GUI/UI for the Installer. And it is amazing: bash script is easier than JavaScript! ❤ I didn&amp;rsquo;t thought programming for CLI would be easier than programming for Web.&lt;/p&gt;
+&lt;p&gt;Start of a bash file, jumping a line and showing a welcome message:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome!&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Showing ASCII art - and any other textbox:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat &amp;lt;&amp;lt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;EOF&amp;#34;&lt;/span&gt;
+  _            _           
+ |_  |   _   _|_  |  o   _ 
+ |   |  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;_&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;   |   |  |  _&amp;gt; 
+                           
+  ___               _            _   _             
+ |_ _|  _ _    ___ | |_   __ _  | | | |  ___   _ _ 
+  | |  | &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; \  (_-&amp;lt; |  _| / _` | | | | | / -_) | &amp;#39;&lt;/span&gt;_|
+ |___| |_&lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt;_| /__/  &lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;_| &lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;_,_| |_| |_| &lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;__| |_|  
+                                                   
+EOF
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Doing CLI commands (such as creating folder, applying chmod permissions), and explainning them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Creating /1 (tree) folder...&amp;#34;&lt;/span&gt;
+mkdir /2
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Setting permissions on /1 folder...&amp;#34;&lt;/span&gt;
+chown -R &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;id -u&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;:&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;id -g&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; /2
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Testing write permissions on tree folder...&amp;#34;&lt;/span&gt;
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;If it takes more than 30 seconds, please reboot your device and try again.&amp;#34;&lt;/span&gt;
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🤓 If u&amp;#39;re nerd: root will be needed for applying chmod to folder. So, instead of being owned by root, tree folder will be writable by you as normal user.&amp;#34;&lt;/span&gt;
+echo -n &amp;gt; /2/temp.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After Floflis Central identifies &lt;code&gt;temp.txt&lt;/code&gt; exists, it creates &lt;code&gt;temp2.txt&lt;/code&gt;. And when bash script identifies that:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; -e /2/temp2.txt &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+    rm /2/temp.txt
+    rm /2/temp2.txt
+    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Creating settings folder...&amp;#34;&lt;/span&gt;
+    mkdir /2/config
+    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Creating sys folder...&amp;#34;&lt;/span&gt;
+    mkdir /2/Floflis
+    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+    tar xfvz 
+&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Bash identifies Floflis Central had created &lt;code&gt;temp2.txt&lt;/code&gt;, and goes to next step; that is the primitive way I thought to make the two proccesses collaborate and communicate with each other.&lt;/p&gt;
+&lt;p&gt;Day 2 I&amp;rsquo;ve worked more on the bash installer, and tunned a few things on Floflis itself:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/8.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/9.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Did a security audit of Floflis Central&amp;rsquo;s NPM dependencies:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/16.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;About to replace KeePassXC with KeeWeb (Electron version), but both KeePassXC and Minetest are amazingly smaller compared to a Electron app:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/17.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/19.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yes, I need to make any Floflis&#39; Electron apps to depend on global shared modules instead of duplicing their own.&lt;/p&gt;
+&lt;p&gt;Created a icon/shortcut for Floflis Central, on Explore menu (pinned and on lists) and desktop/launcher.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/10.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/12.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Replaced &lt;code&gt;home&lt;/code&gt; to &lt;code&gt;tree&lt;/code&gt; link in Explore menu.&lt;/p&gt;
+&lt;p&gt;Renamed &lt;code&gt;System Settings&lt;/code&gt; to simply &lt;code&gt;Settings&lt;/code&gt;, and replaced its link to Floflis Central.&lt;/p&gt;
+&lt;p&gt;But Floflis Central isn&amp;rsquo;t openning from these links:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../img/posts/development-log-01-03-july-2019/15.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll need to create a executable bash script for openning Floflis Central, as Cinnamon links only accepts executables and not commands.&lt;/p&gt;
+&lt;p&gt;Today, did a good re-draft of my paper notes (lines instead of drawing, and three sections: search, develop and a todo list for other projects) for Floflis development and some studies about Linux on routers. Also, cleanning junk files and programs.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Floflis&#39; Layers (Recipe, Core, Substratum, Base, Ultimate)</title>
-      <link>https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</link>
+      <link>/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</link>
       <pubDate>Mon, 01 Jul 2019 16:44:03 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</guid>
-      <description>Seeing the need to compress files to make smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis&amp;rsquo; Layers, which makes Floflis modular and lightweight.
-Bellow are the layers explained:
-Recipe Not a working layer, but it contains references of compilers (for any supported platform) and source-codes.
-Core Very lightweight, can run from a router to even a Nintendo DS.</description>
+      <guid>/2019/07/floflis-layers-recipe-core-substratum-base-ultimate/</guid>
+      <description>&lt;p&gt;Seeing the need to compress files to make smaller .ISO file, and to run Floflis in other platforms (routers, IoT, handheld gaming consoles), I had the idea of Floflis&#39; Layers, which makes Floflis modular and lightweight.&lt;/p&gt;
+&lt;p&gt;Bellow are the layers explained:&lt;/p&gt;
+&lt;h2 id=&#34;recipe&#34;&gt;Recipe&lt;/h2&gt;
+&lt;p&gt;Not a working layer, but it contains references of compilers (for any supported platform) and source-codes.&lt;/p&gt;
+&lt;h2 id=&#34;core&#34;&gt;Core&lt;/h2&gt;
+&lt;p&gt;Very lightweight, can run from a router to even a Nintendo DS. Focused on IoT devices. Totally based on CLI. Includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installer&lt;/li&gt;
+&lt;li&gt;Directory scheme (tree, /1 folder)&lt;/li&gt;
+&lt;li&gt;CLI web browser&lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;li&gt;Yggdrasil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;substratum&#34;&gt;Substratum&lt;/h2&gt;
+&lt;p&gt;Initially thought for Playstation 2. Contains a very basic UI (remembers Windows 1/3) that remembers a CLI, although can render some graphics.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dillo web browser&lt;/li&gt;
+&lt;li&gt;IPFS&lt;/li&gt;
+&lt;li&gt;Aragon + APM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;base&#34;&gt;Base&lt;/h2&gt;
+&lt;p&gt;A lightweight desktop version, thought to run on Windows NT/95 machines and above.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Midori web browser (need to be compatible with Dillo browser)&lt;/li&gt;
+&lt;li&gt;HTML5 apps (needs a lightweight webview that works on old devices)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ultimate&#34;&gt;Ultimate&lt;/h2&gt;
+&lt;p&gt;Contains all feature sets.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firefox web browser (need to be compatible with Midori browser)&lt;/li&gt;
+&lt;li&gt;Application layers/loaders (Windows, MacOS, Android)&lt;/li&gt;
+&lt;li&gt;Media softwares (video/audio edit, media player)&lt;/li&gt;
+&lt;li&gt;others, from feature sets and packs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Actually, the first .ISO releases of Floflis will be from Base layer. With more knowledge, I&amp;rsquo;ll create CLI tools to start distributing Floflis as Core, with ISO builds for other layers and possibility to upgrade a layer through ISOs or feature packs/sets.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>.ISO of 17.4 GB! We need to compress it</title>
-      <link>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</link>
+      <link>/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</link>
       <pubDate>Mon, 01 Jul 2019 16:13:27 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
-      <description>After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&amp;rsquo; Layers).
-I&#39;ve scanned bin, etc, lib, lib64, opt, root, sbin, srv, usr, var root directories, which will be used by live-linux scriptset to build the ISO.</description>
+      <guid>/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/iso-of-17gb-we-need-to-compress-it.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&#39; Layers).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve scanned &lt;code&gt;bin, etc, lib, lib64, opt, root, sbin, srv, usr, var&lt;/code&gt; root directories, which will be used by &lt;code&gt;live-linux&lt;/code&gt; scriptset to build the ISO.
+17.4 GB is very challenging, as the maximum threshold I&amp;rsquo;m defining for the distribution .ISO is 3,5 GB. I&amp;rsquo;ll work on that by removing some uneed software (OBS, Audacity - making them available to download in feature packs), removing binaries of Electron apps (Arbore, Siderus Orion, Balena Etcher - using just one Electron binary, preparing it for HTML5Apps Platform) and by compressing all installable files and extracting when need to install.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Floflis launch has been postponed to July</title>
-      <link>https://floflis.github.io/blog/2019/06/floflis-launch-has-been-postponed-to-july/</link>
+      <link>/2019/06/floflis-launch-has-been-postponed-to-july/</link>
       <pubDate>Thu, 27 Jun 2019 09:56:16 -0400</pubDate>
       
-      <guid>https://floflis.github.io/blog/2019/06/floflis-launch-has-been-postponed-to-july/</guid>
-      <description>If you see the watermark in Floflis desktop, it points as build 051 (5 representing May month, and 1 representing its first build for the month), but we are in 27 June. 051 was postponned because of my incompetence (althought I were studying other things, useful like in other years of &amp;ldquo;ocious&amp;rdquo;), and build 061 is being postponned due to personal issues (my mom needing to use notebook to write - and right now is preventing me from writing this asking to write more, and staring like a guard).</description>
+      <guid>/2019/06/floflis-launch-has-been-postponed-to-july/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/floflis-launch-has-been-postponed-to-july.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you see the watermark in Floflis desktop, it points as &lt;code&gt;build 051&lt;/code&gt; (5 representing May month, and 1 representing its first build for the month), but we are in 27 June. 051 was postponned because of my incompetence (althought I were studying other things, useful like in other years of &amp;ldquo;ocious&amp;rdquo;), and build 061 is being postponned due to personal issues (my mom needing to use notebook to write - and right now is preventing me from writing this asking to write more, and staring like a guard).&lt;/p&gt;
+&lt;p&gt;From yesterday (couldn&amp;rsquo;t search more because my mom ordered to sleep, and as I&amp;rsquo;ve woke at 8AM I had need to agree) to now I did a research about creating Linux ISO (already have Live Linux repo installed), and were impressed because it just creates a bootable Linux on CD/Pendrive, but doesn&amp;rsquo;t installs it. Confused for a few hours, I came with the idea of accepting on making it a live Linux, booting with a default user (floflis), then asking for installation.
+Yeah, installation will be the hard part. I can simply do a piggy install, making a HDD/SSD into a bootable pendrive directly from installation media, but it isn&amp;rsquo;t the best approach. It needs a installer like Ubuntu haves, and I&amp;rsquo;ll research about that. But maybe I reinvent the wheel and create my own installer, in HTML5; which is a huge work and not my focus for now.&lt;/p&gt;
+&lt;p&gt;Also I&amp;rsquo;m looking at Floflis&#39; root folders and seeing their storage space used. The first build probably will be 071, and the limit for ISO size will be 3,5 GB (will be decreased on next builds). I know the Live Linux will see more GB, but I need to reduce it by removing uneed packages (installable through Internet), and zipping others.&lt;/p&gt;
+&lt;p&gt;I remember in 2007, when I were a Windows 98 user, did a draw of my own OS. In 2008-2011, created some versions of a paper+cardboard computer for kids (with a user, and a operator which acts as a CPU/programming interpreter/display manager). In 2011 modified my Windows 7, made the desktop in 3D (using Bumptomp, open-source) and tried to distribute this as a new OS, but thought on copyright and wanted to make my very own OS without basing on a proprietary OS. In 2012 used Linux for first time on my sister&amp;rsquo;s notebook (already heard about Puppy/Slax/Knoppix Linux in 2008) knew Open SUSE Linux and its SUSE Studio, then managed to build a OS based on that. 2014/2015 thought on making my OS as HTML5, and Firefox OS would be the base; also had a hot discussion with my uncle when downloading CLI tools on his computer, to develop on base of Firefox OS. On 2017 returned to SUSE Studio, but in 2018 Open SUSE just f%cked their tool, enabling only high-skilled users to use it. Now I&amp;rsquo;m doing like on 2011: modifying a installed OS, but now open-source and without relyance on 3rd party things; and I don&amp;rsquo;t believe it will be launched. And my mom is stared monitoring what I do here, trying anything to replace me.&lt;/p&gt;
+&lt;p&gt;And I can&amp;rsquo;t write more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updated blog with translations and RSS/JSON feed</title>
+      <link>/2019/06/updated-blog-with-translations-and-rss/json-feed/</link>
+      <pubDate>Tue, 25 Jun 2019 22:52:42 -0400</pubDate>
+      
+      <guid>/2019/06/updated-blog-with-translations-and-rss/json-feed/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/updated-blog-with-translations-and-rss-json-feed.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It were hard to work on Floflis&#39; Blog (and Floflis itself, even more), as there were people with need to use my notebook for hours. But I could make it working 100%.&lt;/p&gt;
+&lt;p&gt;Now the header haves menus (for main site, manuals, source-code) and these menus and blog&amp;rsquo;s title are now fully translated.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/updated-blog-with-translations-and-rss-json-feed2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yes, I know the blog needs a favicon, a comment system (like Disqus), translations in all posts and new languages available. But I did a lot for the blog even with limited hours to work, and when I should work on Floflis OS instead of on its blog.&lt;/p&gt;
+&lt;p&gt;The biggest thing to announce about our blog: it now output news feed for reader apps (JsonFeed and RSS), and haves a search index in JSON (missing a search system and its input field in header). Also I&amp;rsquo;m working on the FrameworkJS theme for GoHugo while working on Floflis blog.&lt;/p&gt;
+&lt;p&gt;The News Feed widget in sidebar is also translated, and part of FrameworkJS theme. This theme also includes its RSS logo (in SVG) and logo/favicon. ❤&lt;/p&gt;
+&lt;p&gt;Hope to tell news about Floflis instead of its blog &amp;lsquo;=&amp;rsquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our blog is working and fully personalized</title>
+      <link>/2019/06/our-blog-is-working-and-fully-personalized/</link>
+      <pubDate>Mon, 24 Jun 2019 11:42:59 -0400</pubDate>
+      
+      <guid>/2019/06/our-blog-is-working-and-fully-personalized/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/our-blog-is-working-and-fully-personalized.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yesterday I&amp;rsquo;ve left the whole day working on Floflis&#39; blog. And today, at morning, in less than two hours I&amp;rsquo;ve personalized the whole blog.&lt;/p&gt;
+&lt;p&gt;It loads a local logo (were reading from Floflis site), haves its title (did it today), personalized menu items (needs translation), and added its first two posts with tags and categories.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t see GoHugo as a good platform for building sites, not even for blogs, but for now it is being totally useful for building blogs.&lt;/p&gt;
+&lt;p&gt;And probably Floflis Central will support on building blogs, using this platform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/2019/06/first-post/</link>
+      <pubDate>Sun, 23 Jun 2019 14:33:54 -0400</pubDate>
+      
+      <guid>/2019/06/first-post/</guid>
+      <description>&lt;p&gt;This is the first post on Floflis&#39; Blog, testing if GoHugo with &lt;code&gt;hugo-bootstrap&lt;/code&gt; theme works.&lt;/p&gt;
+&lt;p&gt;For some time I&amp;rsquo;m wanting to log the development of Floflis on its own blog. Now it seems to be possible ❤&lt;/p&gt;
+</description>
     </item>
     
   </channel>

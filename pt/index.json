@@ -1,0 +1,9 @@
+{
+    "version" : "https://jsonfeed.org/version/1",
+    "title" : "Blog do Floflis",
+    "description": "Recent content on Blog do Floflis",
+    "home_page_url" : "/",
+    "feed_url" : "/pt/index.json",
+    "items" : [
+    ]
+}
