@@ -165,11 +165,11 @@ echo -n &amp;gt; /2/temp.txt
     </item>
     
     <item>
-      <title>.ISO of 17.4 GB! We need to compress it</title>
-      <link>/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</link>
+      <title>ISO of 17.4 GB! We need to compress it</title>
+      <link>/2019/07/iso-of-17.4-gb-we-need-to-compress-it/</link>
       <pubDate>Mon, 01 Jul 2019 16:13:27 -0400</pubDate>
       
-      <guid>/2019/07/.iso-of-17.4-gb-we-need-to-compress-it/</guid>
+      <guid>/2019/07/iso-of-17.4-gb-we-need-to-compress-it/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../../blog/img/posts/iso-of-17gb-we-need-to-compress-it.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;After deciding to start Floflis as a live distro/OS (bootable and usable right after recording it on flash drives), it needs to not be heavyweight. And after tunning it in upcoming builds (being even smaller), make it lightweight and modular, which will be explained in the next post (Floflis&#39; Layers).&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve scanned &lt;code&gt;bin, etc, lib, lib64, opt, root, sbin, srv, usr, var&lt;/code&gt; root directories, which will be used by &lt;code&gt;live-linux&lt;/code&gt; scriptset to build the ISO.
