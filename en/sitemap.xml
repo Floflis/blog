@@ -143,7 +143,7 @@
     <loc>/tags/presentation/</loc>
     <lastmod>2019-06-23T14:33:54-04:00</lastmod>
   </url><url>
-    <loc>/authors/daniell-mesquita/</loc>
+    <loc>/authors/daniella-mesquita/</loc>
   </url><url>
     <loc>/authors/</loc>
     <xhtml:link
@@ -166,5 +166,7 @@
                 hreflang="en"
                 href="/authors/"
                 />
+  </url><url>
+    <loc>/authors/</loc>
   </url>
 </urlset>
